@@ -104,7 +104,7 @@ html{
 
 h1.product {
 	color:#FFF;
-	font-size: $base-font-size*1.25;
+	font-size: $base-font-size*$golden;
 	text-transform: uppercase;
 	font-weight: 100;
 
@@ -113,7 +113,7 @@ h1.product {
 
 ul.product {
 	color:#FFF;
-	font-size: $base-font-size*1.25;
+	font-size: $base-font-size;
 	line-height: 1.5;
 	font-weight:100;
 
@@ -123,13 +123,17 @@ ul.product {
 	color:#FFF;
 	font-weight: 100;
 	line-height:1.2;
+	font-size: $base-font-size*3;
+	letter-spacing: -2px;
+
+
 	//font-size: $base-font-size*4;
 }
 
 h3.description {
 	color: #003366;
-	font-size: $base-font-size*1.5;
-	font-weight: 100;
+	font-size: $base-font-size*$golden;
+	font-weight: 500;
 
 }
 p.description {

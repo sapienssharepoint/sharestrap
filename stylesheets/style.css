@@ -3811,7 +3811,7 @@ html {
 /* line 105, ../sass/style.scss */
 h1.product {
   color: #FFF;
-  font-size: 22.5px;
+  font-size: 29.12461px;
   text-transform: uppercase;
   font-weight: 100;
 }
@@ -3819,7 +3819,7 @@ h1.product {
 /* line 114, ../sass/style.scss */
 ul.product {
   color: #FFF;
-  font-size: 22.5px;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 100;
 }
@@ -3829,16 +3829,18 @@ ul.product {
   color: #FFF;
   font-weight: 100;
   line-height: 1.2;
+  font-size: 54px;
+  letter-spacing: -2px;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 h3.description {
   color: #003366;
-  font-size: 27px;
-  font-weight: 100;
+  font-size: 29.12461px;
+  font-weight: 500;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 p.description {
   color: #666;
   font-weight: 100;
