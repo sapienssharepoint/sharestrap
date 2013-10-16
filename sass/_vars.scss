@@ -11,6 +11,9 @@
  */
 
 
+$base-font-size:    18px!default;
+$base-font-family:  'Open Sans', sans-serif; //sans-serif!default;
+//$base-line-height: 24px;
 
 
 
@@ -26,27 +29,27 @@
 $use-grids:         true;
 $use-flexbox:       false;
 $use-columns:       false;
-$use-nav:           false;
-$use-options:       false;
+$use-nav:           true;
+$use-options:       true;
 $use-pagination:    false;
 $use-breadcrumb:    false;
 $use-media:         false;
 $use-marginalia:    false;
-$use-island:        false;
+$use-island:        true;
 $use-block-list:    false;
 $use-matrix:        false;
 $use-split:         false;
 $use-this-or-this:  false;
 $use-link-complex:  false;
-$use-flyout:        false;
+$use-flyout:        true;
 $use-arrows:        false;
 $use-sprite:        false;
 $use-icon-text:     false;
-$use-beautons:      false;
+$use-beautons:      true;
 $use-lozenges:      false;
 $use-rules:         false;
 $use-stats:         false;
-$use-greybox:       false;
+$use-greybox:       true;
 
 
 
@@ -60,7 +63,17 @@ $use-greybox:       false;
  */
 
 
-h1 {color: red;}
+
+
+h1 { 
+	font-weight: 300;
+}
+
+.greybox {
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 300;
+	font-size: 1em !important;
+}
 
 
 
@@ -70,3 +83,6 @@ h1 {color: red;}
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+
+
+

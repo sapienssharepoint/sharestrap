@@ -84,14 +84,55 @@
  */
 
 html{
-    background-color: #fff;
+    background-color: #FFF;
     color: #333;
 }
 .wrapper{
-    max-width: 960px;
+    max-width: 1200px;
     padding: 0 24px;
     margin: 0 auto;
 }
 .footer{
     margin-bottom: 0;
+}
+
+
+/**
+	PRODUCT SITES
+
+**/
+
+h1.product {
+	color:#FFF;
+	font-size: $base-font-size*1.25;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+
+
+ul.product {
+	color:#FFF;
+	font-size: $base-font-size*1.25;
+	line-height: 1.5;
+	font-weight:100;
+
+}
+
+.kilo {
+	color:#FFF;
+	font-weight: 100;
+	line-height:1.2;
+	//font-size: $base-font-size*4;
+}
+
+h3.description {
+	color: #003366;
+	font-size: $base-font-size*1.5;
+	font-weight: 100;
+
+}
+p.description {
+	color: #666;
+
 }

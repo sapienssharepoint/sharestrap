@@ -2,32 +2,166 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>inuit.css Example Project</title>
+    <title>GRID TEST</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,800,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/style.css"/>
   </head>
-  <body>
-    <div class="island  greybox  greybox--medium  header">Header</div>
 
+
+
+  <body>
+<!--
+    <ul class="nav  nav--block  foo">
+      <li><a href=#>Home</a></li>
+      <li>
+        <div class="flyout">
+          <a href=#>Products</a> 
+          <div class="flyout__content  demo-block">
+            <a href="#">CEE</a>
+            <a href="#">ETM</a>
+            <a href="#">LFWP</a>
+            <a href="#">SQL</a>
+          </div>
+        </div>
+     </li>
+       
+      <li><a href=#>Blog</a></li>
+      <li><a href=#>Who we are</a></li>
+    </ul>
+
+--> 
+<section class="header">
+  <div class="wrapper">
+    <div class="grid">
+         <div class="grid__item  one-third">
+            <div class="">
+                  <h1>ShareStrap</h1>
+            </div>
+         </div><div class="grid__item  two-thirds">
+                  <ul class="nav  nav--fit  nav--block ">
+                      <li><a href=#>Home</a></li>
+                      <li><a href=#>About</a></li>
+                      <li><a href=#>Portfolio</a></li>
+                      <li><a href=#>Contact</a></li>
+                  </ul>       
+          </div>
+     </div>
+   </div>
+</section>
+
+
+<section style="background:#003399;">
+        <div class="wrapper">
+          <div class="grid">
+             <div class="grid__item  one-third">
+                  <img src="http://placehold.it/350x350/003366/FFFFFFF" class="island">
+              </div><div class="grid__item  two-thirds">
+                <div class="island">
+                  <h1 class="product">EMPLOYEE TRAINING MANAGEMENT</h1> 
+                  <h2 class="kilo">Manage your Employee Trainings with Sharepoint</h2>
+                  <ul class="product">
+                    <li>Provide a training catalog and schedule trainings</li>
+                    <li>Full featured event and enrollment management</li>
+                    <li>Provides employee profiles and a skill database</li>
+                  </ul>
+                   <div class="grid grid--right">
+                      <div class="grid__item  one-third">
+                      
+                      </div><div class="grid__item  two-thirds" style="text-align:right;"> 
+                      <a href="#" class="btn  btn--positive  btn--beta">Get your free Trial</a>          
+                      </div>
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
+        </div>
+</section>
+
+
+<section>
+      <div class="wrapper">
+          <div class="grid">
+             <div class="grid__item  one-half">
+                <div class="island">
+                  <h3 class=" description">
+                    Provide a training catalog and schedule trainings in SharePoint
+                  </h3>
+                  <p class=" description">
+Create a catalog of trainings and courses and schedule events demand-driven. Create meeting workspaces to provide documents and other course materials. Request a feedback after the training automatically. 
+                  </p>
+                </div>
+              </div><div class="grid__item  one-half">
+                <div class="">              
+                  <img src="http://placehold.it/600x350/DDDDDD/003366" class="island">
+                </div>     
+              </div>
+          </div>
+        </div>
+</section>
+
+
+<section style="background:#f0f0f0;">
+      <div class="wrapper">
+          <div class="grid">
+             <div class="grid__item  one-half">
+                <div class="">              
+                  <img src="http://placehold.it/600x350/DDDDDD/003366" class="island">
+                </div>     
+              </div><div class="grid__item  one-half">
+                <div class="island">
+                  <h3 class=" description">
+                    Your employees can enroll to topics or scheduled trainings
+                  </h3>
+                  <p class=" description">
+Your employees can enroll to topics they are interested in or to trainings that are already scheduled. As an organizer you can also enroll and invite your employees to obligatory trainings. Attendees receive an email invitation and get the scheduled training directly in their personal calendar. If management approval is required, they will only receive the invitation if the enrollment is finally approved.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+</section>
+
+
+<section>
+      <div class="wrapper">
+          <div class="grid grid--middle" style="vertical-align:middle;
+">
+             <div class="grid__item  one-half">
+                <div class="island">
+                  <h3 class=" description">
+                    Find employees with certain skills and skill level
+                  </h3>
+                  <p class=" description">
+                    Check which employees completed which courses and which skills were transmitted.
+                  </p>
+                </div>
+              </div><div class="grid__item  one-half">
+                <div class="">              
+                  <img src="http://placehold.it/600x350/DDDDDD/003366" class="island">
+                </div>     
+              </div>
+          </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+<section>
+        <div class="island  greybox  greybox--medium  footer">Footer</div>​
+</section>
+<!--
         <div class="wrapper">
 
-            <h1>Header h1</h1>
-        
-            <ul class="nav  nav--fit  nav--block  greybox">
-                <li><a href=#>Home</a></li>
-                <li><a href=#>About</a></li>
-                <li><a href=#>Portfolio</a></li>
-                <li><a href=#>Contact</a></li>
-            </ul>
-        
-            <div class="island  greybox  greybox--large">Masthead</div>
-        
             <div class="grid">
             
                 <div class="grid__item  two-thirds  content">
                     <div class="island  greybox  greybox--gigantic">Content</div>
-                </div><!-- /content
-            
-                --><div class="grid__item  one-third  sub-content">
+                </div><div class="grid__item  one-third  sub-content">
                     <div class="island  greybox">
                     
                         <div class="grid">
@@ -45,13 +179,12 @@
                         <div class="islet  greybox">Ad</div>
                     
                     </div>
-                </div><!-- /sub-content -->
+                </div><
             
             </div>
         
-        </div><!-- /wrapper -->
+        </div>-->
         
-        <div class="island  greybox  greybox--medium  footer">Footer</div>​
     </body>
 </html>
     
