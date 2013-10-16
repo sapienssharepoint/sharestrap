@@ -38,15 +38,15 @@
 /**
  * Place any variables that should override inuit.css’ defaults here.
  */
-/* line 68, ../sass/_vars.scss */
+/* line 67, ../sass/_vars.scss */
 h1 {
-  font-weight: 300;
+  font-weight: 100;
 }
 
-/* line 72, ../sass/_vars.scss */
+/* line 71, ../sass/_vars.scss */
 .greybox {
   font-family: 'Open Sans', sans-serif !important;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 1em !important;
 }
 
@@ -3813,7 +3813,7 @@ h1.product {
   color: #FFF;
   font-size: 22.5px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 /* line 114, ../sass/style.scss */
@@ -3841,4 +3841,5 @@ h3.description {
 /* line 135, ../sass/style.scss */
 p.description {
   color: #666;
+  font-weight: 100;
 }
