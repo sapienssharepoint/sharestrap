@@ -3805,10 +3805,23 @@ html {
 }
 
 /**
+
+	NAV
+
+**/
+/* line 106, ../sass/style.scss */
+.nav--fit > li > a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+/**
 	PRODUCT SITES
 
 **/
-/* line 105, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 h1.product {
   color: #FFF;
   font-size: 29.12461px;
@@ -3816,7 +3829,7 @@ h1.product {
   font-weight: 100;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 ul.product {
   color: #FFF;
   font-size: 18px;
@@ -3824,7 +3837,7 @@ ul.product {
   font-weight: 100;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .kilo {
   color: #FFF;
   font-weight: 100;
@@ -3833,14 +3846,14 @@ ul.product {
   letter-spacing: -2px;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 h3.description {
   color: #003366;
   font-size: 29.12461px;
   font-weight: 500;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 p.description {
   color: #666;
   font-weight: 100;
