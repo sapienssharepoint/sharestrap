@@ -3792,14 +3792,21 @@ html {
   color: #333;
 }
 
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
+.header {
+  box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.7);
+  z-index: 9;
+  position: relative;
+}
+
+/* line 96, ../sass/style.scss */
 .wrapper {
   max-width: 1200px;
   padding: 0 24px;
   margin: 0 auto;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .footer {
   margin-bottom: 0;
 }
@@ -3809,19 +3816,27 @@ html {
 	NAV
 
 **/
-/* line 106, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
+.logo {
+  margin: 16px 25px 0;
+}
+
+/* line 116, ../sass/style.scss */
 .nav--fit > li > a {
   display: block;
-  color: #333;
+  color: #646464;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 1em;
+  text-transform: uppercase;
 }
 
 /**
 	PRODUCT SITES
 
 **/
-/* line 120, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 h1.product {
   color: #FFF;
   font-size: 29.12461px;
@@ -3829,7 +3844,7 @@ h1.product {
   font-weight: 100;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 ul.product {
   color: #FFF;
   font-size: 18px;
@@ -3837,7 +3852,7 @@ ul.product {
   font-weight: 100;
 }
 
-/* line 137, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .kilo {
   color: #FFF;
   font-weight: 100;
@@ -3846,14 +3861,14 @@ ul.product {
   letter-spacing: -2px;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 h3.description {
   color: #003366;
   font-size: 29.12461px;
   font-weight: 500;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 p.description {
   color: #666;
   font-weight: 100;

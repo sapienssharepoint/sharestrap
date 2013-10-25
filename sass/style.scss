@@ -87,6 +87,12 @@ html{
     background-color: #FFF;
     color: #333;
 }
+
+.header {
+	box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.7);
+	z-index: 9;
+	position: relative;
+}
 .wrapper{
     max-width: 1200px;
     padding: 0 24px;
@@ -96,18 +102,25 @@ html{
     margin-bottom: 0;
 }
 
+
 /**
 
 	NAV
 
 **/
 
+.logo {
+	margin: 16px 25px 0;
+}
 
 .nav--fit > li > a {
 	display: block;
-	color: #333;
+	color: #646464;
 	text-decoration: none;
-	font-size: 1.25em;
+	font-size: 1em;
+	font-weight: 100;
+	margin-top: 1em;
+	text-transform: uppercase;
 }
 
 
