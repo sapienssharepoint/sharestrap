@@ -83,13 +83,17 @@
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
 
+ @import "compass/css3/transition";
+ @import "compass/css3/border-radius";
+
+
 html{
     background-color: #FFF;
     color: #333;
 }
 
 .header {
-	box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.7);
+	//box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.7);
 	z-index: 9;
 	position: relative;
 }
@@ -113,28 +117,180 @@ html{
 	margin: 16px 25px 0;
 }
 
-.nav--fit > li > a {
-	display: block;
-	color: #646464;
-	text-decoration: none;
+.nav--main {
 	font-size: 1em;
 	font-weight: 100;
 	margin-top: 1em;
 	text-transform: uppercase;
+	float:right;
+}
+
+.nav--main > li > a {
+	color: #646464;
+	text-decoration: none;
+}
+
+.nav--main > li > a:hover {
+	background: #f9f9f9;
+	@include transition(all .3s ease-out); 
+	@include border-radius(5px);
+
+
 }
 
 
 
+.sect-second {
+	background-color: desaturate(darken($color-etm,5%),10%);
+
+}
+.nav--second {
+	color: #f00;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 100;
+	margin-top: 1em;
+	float:right;
+	margin:0;
+}
+
+.nav--main > li {
+	padding-right: 48px;
+}
+
+.nav--main > li:last-child {
+	padding-right:0;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 7px;
+	vertical-align: middle;
+	border-top: 8px solid #666;
+	border-right: 5px solid transparent;
+	border-bottom: 0 dotted;
+	border-left: 5px solid transparent;
+	content: "";
+	margin-top: -3px;
+}
+
+.nav--second > li {
+	padding-right: 48px;
+}
+
+.nav--second > li:last-child {
+	padding-right:0;
+}
+
+.nav--second > li > a {
+	color: #FFF;
+	font-size:14.833px;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.nav--second > li > a:hover {
+	background: darken(desaturate(darken($color-etm,5%),10%),5%);
+	 @include transition(all .3s ease-out); 
+
+}
+
+.nav--fit > li > a {
+	display: block;
+}
+
+.flyout { overflow: inherit;}
+
+.flyout__content {
+	background: #fff;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+.flyout__content > ul {
+	margin: 0;
+	list-style-type: none;
+	text-transform: none;
+	font-size: 14.833px;
+	padding: 6px 12px;
+}
+
+.flyout__content > ul > li {
+	padding: 12px;
+	//margin: 12px;
+}
+
+.flyout__content > ul > li:last-child {
+	margin-bottom:6px;
+}
+
+.flyout__content > ul > li:first-child {
+	margin-top:6px;
+}
+
+.flyout__content > ul > li:hover {
+	//padding: 9px 18px;
+	background: #f9f9f9;
+	@include border-radius(5px);
+}
+
+li.li-etm:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-etm;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+li.li-cee:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-cee;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+li.li-lfwp:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-lfwp;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+
+li.li-jfc:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-jfc;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+li.li-sql:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-sql;
+	padding: 0 10px;
+	margin-right: 9px;
+}
 /**
 	PRODUCT SITES
 
 **/
 
+.sect-product {
+	background-color: $color-etm;
+}
+
 h1.product {
 	color:#FFF;
-	font-size: $base-font-size*$golden;
+	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 100;
+	margin-bottom:14.833px;
 
 }
 
@@ -144,28 +300,67 @@ ul.product {
 	font-size: $base-font-size;
 	line-height: 1.5;
 	font-weight:100;
-
 }
 
 .kilo {
 	color:#FFF;
 	font-weight: 100;
 	line-height:1.2;
-	font-size: $base-font-size*3;
+	font-size: 47.123px;
 	letter-spacing: -2px;
-
-
-	//font-size: $base-font-size*4;
 }
 
 h3.description {
-	color: #003366;
-	font-size: $base-font-size*$golden;
+	color: darken($color-etm,5%);
+	font-size: 24px;
 	font-weight: 500;
+	line-height: 1.333;
 
 }
 p.description {
 	color: #666;
 	font-weight: 100;
 
+}
+
+
+
+.btn--product {
+	background-color: desaturate(complement($color-etm),20%);
+	color: #FFF;
+	padding: 0.618em 1.618em 0.824em;
+	//border-radius: 5px;
+	@include border-radius(5px);
+	border-bottom: 1px solid darken(complement($color-etm),20%);
+	border-top: 1px solid lighten(complement($color-etm),20%);
+	box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);	
+	//text-transform: uppercase;
+	// -webkit-transition: all .2s ease-in-out; 
+	 @include transition(all .2s ease-in-out); 
+
+	line-height:1;
+	text-align:center;
+	font-size:24px;
+
+}
+
+.btn--product:hover {
+	background-color: lighten(desaturate(complement($color-etm),20%),5%);
+    //-webkit-transform: scale(1.03);
+    //border: 3px solid white;
+
+}
+
+.btn--product:active {
+	background-color: darken(desaturate(complement($color-etm),20%),5%);
+	border-top: 1px solid darken(complement($color-etm),20%);
+	border-bottom: 1px solid lighten(complement($color-etm),20%);
+	box-shadow: inset 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+
+}
+
+.btn--subtext {
+	font-size:11.125px;
+	margin-top: -1em;
+	text-transform: none;
 }

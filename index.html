@@ -13,26 +13,9 @@
 
 
   <body>
-<!--
-    <ul class="nav  nav--block  foo">
-      <li><a href=#>Home</a></li>
-      <li>
-        <div class="flyout">
-          <a href=#>Products</a> 
-          <div class="flyout__content  demo-block">
-            <a href="#">CEE</a>
-            <a href="#">ETM</a>
-            <a href="#">LFWP</a>
-            <a href="#">SQL</a>
-          </div>
-        </div>
-     </li>
-       
-      <li><a href=#>Blog</a></li>
-      <li><a href=#>Who we are</a></li>
-    </ul>
 
---> 
+
+<!-- MAIN NAVIGATION--> 
 <section class="header">
   <div class="wrapper">
     <div class="grid">
@@ -41,8 +24,18 @@
                   <img src="http://placehold.it/250x50/eeeeee/bbbbbb">
             </div>
          </div><div class="grid__item  one-half">
-                  <ul class="nav  nav--fit  nav--block ">
-                      <li><a href=#>Products</a></li>
+                  <ul class="nav  nav--main nav--block ">
+                      <li><a href="#" class="arrow_down flyout">Products<b class="caret"></b>
+                        <div class="flyout__content">
+                          <ul>
+                            <li class="li-cee">Calendar Email Extension</li>
+                            <li class="li-etm">Employee Training Management</li>
+                            <li class="li-lfwp">List Filter Webpart</li>
+                            <li class="li-jfc">JotForm Connector</li>
+                            <li class="li-sql">SQL Data Matcher</li>
+                          </ul>
+                        </div>
+    </li></a></li>
                       <li><a href=#>Blog</a></li>
                       <li><a href=#>Who we are</a></li>
                      <!-- <li><a href=#></a></li>-->
@@ -53,11 +46,28 @@
 </section>
 
 
-<section style="background:#003366;">
+<!-- SECONDARY NAVIGATION -->
+<section class="sect-second">
+     <div class="wrapper">
+          <div class="grid">
+            <div class="grid__item  one-whole">
+                  <ul class="nav nav--second nav--block ">
+                      <li><a href=#>Features</a></li>
+                      <li><a href=#>Pricing</a></li>
+                      <li><a href=#>Documentation</a></li>
+                  </ul>  
+            </div>     
+          </div>
+        </div>
+</section>
+
+
+<!-- PRODUCT -->
+<section class="sect-product">
         <div class="wrapper">
           <div class="grid">
              <div class="grid__item  two-fifths palm-one-whole">
-                  <img src="http://placehold.it/350x350/104B85/FFFFFFF" class="island">
+                  <img src="http://placehold.it/400x400/DDDDDD/444444" class="island">
               </div><div class="grid__item  three-fifths palm-one-whole">
                 <div class="island">
                   <h1 class="product">EMPLOYEE TRAINING MANAGEMENT</h1> 
@@ -67,8 +77,8 @@
                     <li>Full featured event and enrollment management</li>
                     <li>Provides employee profiles and a skill database</li>
                   </ul>
-                 <div style="text-align:right;"> 
-                      <a href="#" class="btn  btn--positive  btn--gamma">Get your free Trial</a>          
+                 <div> 
+                      <a href="#" class="btn  btn--product  btn--gamma">Try it for FREE<br><span class="btn--subtext">Download 30 Day Fully Functional Trial </span></a>          
                   </div>
                   
                 </div>
@@ -92,7 +102,7 @@ Create a catalog of trainings and courses and schedule events demand-driven. Cre
                 </div>
               </div><div class="grid__item  one-half palm-one-whole">
                 <div class="">              
-                  <img src="http://placehold.it/600x350/DDDDDD/003366" class="island">
+                  <img src="http://placehold.it/600x350/DDDDDD/444444" class="island">
                 </div>     
               </div>
           </div>
@@ -105,7 +115,7 @@ Create a catalog of trainings and courses and schedule events demand-driven. Cre
           <div class="grid">
              <div class="grid__item  one-half palm-one-whole">
                 <div class="">              
-                  <img src="http://placehold.it/600x350/DDDDDD/003366" class="island">
+                  <img src="http://placehold.it/600x350/DDDDDD/444444" class="island">
                 </div>     
               </div><div class="grid__item  one-half palm-one-whole">
                 <div class="island">
@@ -137,7 +147,7 @@ Your employees can enroll to topics they are interested in or to trainings that 
                 </div>
               </div><div class="grid__item  one-half palm-one-whole">
                 <div class="">              
-                  <img src="http://placehold.it/600x350/DDDDDD/003366" class="island">
+                  <img src="http://placehold.it/600x350/DDDDDD/444444" class="island">
                 </div>     
               </div>
           </div>
