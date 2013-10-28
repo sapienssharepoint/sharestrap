@@ -93,7 +93,7 @@ html{
 }
 
 .header {
-	//box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.7);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 	z-index: 9;
 	position: relative;
 }
@@ -108,9 +108,7 @@ html{
 
 
 /**
-
 	NAV
-
 **/
 
 .logo {
@@ -131,7 +129,7 @@ html{
 }
 
 .nav--main > li > a:hover {
-	background: #f9f9f9;
+	background: #f2f2f2;
 	@include transition(all .3s ease-out); 
 	@include border-radius(5px);
 
@@ -219,8 +217,18 @@ html{
 
 .flyout__content > ul > li {
 	padding: 12px;
+	@include transition(background .3s ease-out); 
 	//margin: 12px;
 }
+
+.flyout__content > ul > li > a {
+	text-decoration: none;
+}
+
+.flyout__content > ul > li > a:active {
+	color: black;
+}
+
 
 .flyout__content > ul > li:last-child {
 	margin-bottom:6px;
@@ -232,8 +240,12 @@ html{
 
 .flyout__content > ul > li:hover {
 	//padding: 9px 18px;
-	background: #f9f9f9;
+	background: #f2f2f2;
 	@include border-radius(5px);
+}
+
+.flyout__content > ul > li:active {
+	background: #EEEEEE;
 }
 
 li.li-etm:before {
