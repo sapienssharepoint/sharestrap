@@ -93,8 +93,7 @@ html{
 }
 
 .header {
-	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
-	z-index: 9;
+	box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);	z-index: 9;
 	position: relative;
 }
 .wrapper{
@@ -112,20 +111,27 @@ html{
 **/
 
 .logo {
-	margin: 16px 25px 0;
+	margin: 8px 24px 0px;
 }
 
 .nav--main {
-	font-size: 1em;
+	font-size: 0.824em;
 	font-weight: 100;
-	margin-top: 1em;
+	margin-top: 10px;
 	text-transform: uppercase;
 	float:right;
+	margin-bottom:0;
 }
 
 .nav--main > li > a {
-	color: #646464;
+	color: #888888;
 	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+
+
+
 }
 
 .nav--main > li > a:hover {
@@ -150,6 +156,8 @@ html{
 	margin-top: 1em;
 	float:right;
 	margin:0;
+	//font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 .nav--main > li {
@@ -166,7 +174,7 @@ html{
 	height: 0;
 	margin-left: 7px;
 	vertical-align: middle;
-	border-top: 8px solid #666;
+	border-top: 8px solid #888888;
 	border-right: 5px solid transparent;
 	border-bottom: 0 dotted;
 	border-left: 5px solid transparent;
@@ -184,9 +192,11 @@ html{
 
 .nav--second > li > a {
 	color: #FFF;
-	font-size:14.833px;
+	font-size: 12px;
 	text-decoration: none;
 	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .nav--second > li > a:hover {
@@ -295,15 +305,21 @@ li.li-sql:before {
 
 .sect-product {
 	background-color: $color-etm;
+	text-shadow: 0 0px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1.product {
 	color:#FFF;
-	font-size: 24px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 100;
 	margin-bottom:14.833px;
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 12px;
+	letter-spacing: 1px;
 }
 
 
@@ -311,22 +327,34 @@ ul.product {
 	color:#FFF;
 	font-size: $base-font-size;
 	line-height: 1.5;
-	font-weight:100;
+	font-weight:300;
 }
 
 .kilo {
 	color:#FFF;
 	font-weight: 100;
-	line-height:1.2;
+	line-height:1.1;
 	font-size: 47.123px;
-	letter-spacing: -2px;
+	//letter-spacing: -2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	//text-transform: uppercase;
+	font-weight: 700;	
+	text-rendering: optimizeLegibility;
+	margin-bottom: 18px;
+
+
 }
 
 h3.description {
 	color: darken($color-etm,5%);
-	font-size: 24px;
+	font-size: 29.124px;
 	font-weight: 500;
-	line-height: 1.333;
+	line-height: 1.25;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom:18px;
+
 
 }
 p.description {
@@ -353,6 +381,9 @@ p.description {
 	line-height:1;
 	text-align:center;
 	font-size:24px;
+	text-shadow: 0 -1px rgba(0,0,0,0.3);
+	letter-spacing: 1px;
+
 
 }
 
@@ -375,4 +406,5 @@ p.description {
 	font-size:11.125px;
 	margin-top: -1em;
 	text-transform: none;
+	letter-spacing: normal;
 }
