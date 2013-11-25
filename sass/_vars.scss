@@ -49,6 +49,7 @@ $use-lozenges:      false;
 $use-rules:         false;
 $use-stats:         false;
 $use-greybox:       true;
+$responsive-extra:  true;
 
 
 $golden:  1.61803398874989;
@@ -61,6 +62,13 @@ $golden:  1.61803398874989;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
+.grid--middle > .grid__item, .grid--middle > .content, .grid--middle > .sub-content, .grid--middle > .footer__item {
+  vertical-align: middle;
+}
+
+.grid--bottom > .grid__item, .grid--bottom > .content, .grid--bottom > .sub-content, .grid--bottom > .footer__item {
+  vertical-align: bottom;
+}
 
 
 
@@ -83,7 +91,7 @@ h1 {
  * Place any of your own variables that sit on top of inuit.css here.
  */
 
-$color-etm: desaturate(#86C643,0%);
+$color-etm: desaturate(/*#86C643*/#A5D330,0%);
 $color-cee: desaturate(#FAC830,0%);
 $color-lfwp: desaturate(#4A99F2,20%);
 $color-jfc: desaturate(#a74bf5,20%);

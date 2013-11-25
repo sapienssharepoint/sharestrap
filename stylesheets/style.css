@@ -38,12 +38,22 @@
 /**
  * Place any variables that should override inuit.css’ defaults here.
  */
-/* line 67, ../sass/_vars.scss */
+/* line 65, ../sass/_vars.scss */
+.grid--middle > .grid__item, .grid--middle > .content, .grid--middle > .sub-content, .grid--middle > .footer__item {
+  vertical-align: middle;
+}
+
+/* line 69, ../sass/_vars.scss */
+.grid--bottom > .grid__item, .grid--bottom > .content, .grid--bottom > .sub-content, .grid--bottom > .footer__item {
+  vertical-align: bottom;
+}
+
+/* line 75, ../sass/_vars.scss */
 h1 {
   font-weight: 100;
 }
 
-/* line 71, ../sass/_vars.scss */
+/* line 79, ../sass/_vars.scss */
 .greybox {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 100;
@@ -3288,6 +3298,154 @@ label,
  * `_vars.scss` then you now have access to the following class available to
  * accomodate much larger screen resolutions.
  */
+@media only screen and (min-width: 1200px) {
+  /**
+  * Whole
+  */
+  /* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-whole {
+    width: 100%;
+  }
+
+  /**
+  * Halves
+  */
+  /* line 23, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-half, .desk-wide-two-quarters, .desk-wide-three-sixths, .desk-wide-four-eighths, .desk-wide-five-tenths, .desk-wide-six-twelfths {
+    width: 50%;
+  }
+
+  /**
+  * Thirds
+  */
+  /* line 29, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-third, .desk-wide-two-sixths, .desk-wide-four-twelfths {
+    width: 33.333%;
+  }
+
+  /* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-two-thirds, .desk-wide-four-sixths, .desk-wide-eight-twelfths {
+    width: 66.666%;
+  }
+
+  /**
+  * Quarters
+  */
+  /* line 36, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-quarter, .desk-wide-two-eighths, .desk-wide-three-twelfths {
+    width: 25%;
+  }
+
+  /* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-three-quarters, .desk-wide-six-eighths, .desk-wide-nine-twelfths {
+    width: 75%;
+  }
+
+  /**
+  * Fifths
+  */
+  /* line 44, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-fifth, .desk-wide-two-tenths {
+    width: 20%;
+  }
+
+  /* line 45, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-two-fifths, .desk-wide-four-tenths {
+    width: 40%;
+  }
+
+  /* line 46, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-three-fifths, .desk-wide-six-tenths {
+    width: 60%;
+  }
+
+  /* line 47, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-four-fifths, .desk-wide-eight-tenths {
+    width: 80%;
+  }
+
+  /**
+  * Sixths
+  */
+  /* line 53, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-sixth, .desk-wide-two-twelfths {
+    width: 16.666%;
+  }
+
+  /* line 57, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-five-sixths, .desk-wide-ten-twelfths {
+    width: 83.333%;
+  }
+
+  /**
+  * Eighths
+  */
+  /* line 63, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-eighth {
+    width: 12.5%;
+  }
+
+  /* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-three-eighths {
+    width: 37.5%;
+  }
+
+  /* line 67, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-five-eighths {
+    width: 62.5%;
+  }
+
+  /* line 69, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-seven-eighths {
+    width: 87.5%;
+  }
+
+  /**
+  * Tenths
+  */
+  /* line 75, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-tenth {
+    width: 10%;
+  }
+
+  /* line 77, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-three-tenths {
+    width: 30%;
+  }
+
+  /* line 81, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-seven-tenths {
+    width: 70%;
+  }
+
+  /* line 83, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-nine-tenths {
+    width: 90%;
+  }
+
+  /**
+  * Twelfths
+  */
+  /* line 89, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-one-twelfth {
+    width: 8.333%;
+  }
+
+  /* line 93, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-five-twelfths {
+    width: 41.666%;
+  }
+
+  /* line 95, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-seven-twelfths {
+    width: 58.333%;
+  }
+
+  /* line 99, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/generic/_widths.scss */
+  .desk-wide-eleven-twelfths {
+    width: 91.666%;
+  }
+}
 /* endif */
 /*------------------------------------*\
     $PUSH
@@ -3794,8 +3952,6 @@ html {
 
 /* line 95, ../sass/style.scss */
 .header {
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
-  z-index: 9;
   position: relative;
 }
 
@@ -3811,15 +3967,20 @@ html {
   margin-bottom: 0;
 }
 
+/* line 108, ../sass/style.scss */
+.centered {
+  text-align: center;
+}
+
 /**
 	NAV
 **/
-/* line 113, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .logo {
   margin: 8px 24px 0px;
 }
 
-/* line 117, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .nav--main {
   font-size: 0.824em;
   font-weight: 100;
@@ -3829,16 +3990,16 @@ html {
   margin-bottom: 0;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .nav--main > li > a {
   color: #888888;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
-/* line 137, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .nav--main > li > a:hover {
   background: #f2f2f2;
   -webkit-transition: all 0.3s ease-out;
@@ -3852,12 +4013,17 @@ html {
   border-radius: 5px;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .sect-second {
-  background-color: #79ac44;
+  background-color: #91b535;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
+.sect_island {
+  padding: 12px 0;
+}
+
+/* line 161, ../sass/style.scss */
 .nav--second {
   color: #f00;
   text-decoration: none;
@@ -3868,17 +4034,17 @@ html {
   margin: 0;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .nav--main > li {
   padding-right: 48px;
 }
 
-/* line 167, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .nav--main > li:last-child {
   padding-right: 0;
 }
 
-/* line 171, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .caret {
   display: inline-block;
   width: 0;
@@ -3893,17 +4059,17 @@ html {
   margin-top: -3px;
 }
 
-/* line 185, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .nav--second > li {
   padding-right: 48px;
 }
 
-/* line 189, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .nav--second > li:last-child {
   padding-right: 0;
 }
 
-/* line 193, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .nav--second > li > a {
   color: #FFF;
   font-size: 12px;
@@ -3913,33 +4079,33 @@ html {
   letter-spacing: 1px;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .nav--second > li > a:hover {
-  background: #6c9a3c;
+  background: #81a12f;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
-/* line 208, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .nav--fit > li > a {
   display: block;
 }
 
-/* line 212, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .flyout {
   overflow: inherit;
 }
 
-/* line 214, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .flyout__content {
   background: #fff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .flyout__content > ul {
   margin: 0;
   list-style-type: none;
@@ -3948,7 +4114,7 @@ html {
   padding: 6px 12px;
 }
 
-/* line 228, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .flyout__content > ul > li {
   padding: 12px;
   -webkit-transition: background 0.3s ease-out;
@@ -3957,27 +4123,28 @@ html {
   transition: background 0.3s ease-out;
 }
 
-/* line 234, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .flyout__content > ul > li > a {
   text-decoration: none;
+  color: #666;
 }
 
-/* line 238, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .flyout__content > ul > li > a:active {
   color: black;
 }
 
-/* line 243, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .flyout__content > ul > li:last-child {
   margin-bottom: 6px;
 }
 
-/* line 247, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .flyout__content > ul > li:first-child {
   margin-top: 6px;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .flyout__content > ul > li:hover {
   background: #f2f2f2;
   -webkit-border-radius: 5px;
@@ -3987,12 +4154,12 @@ html {
   border-radius: 5px;
 }
 
-/* line 257, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .flyout__content > ul > li:active {
   background: #EEEEEE;
 }
 
-/* line 261, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 li.li-etm:before {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4000,12 +4167,12 @@ li.li-etm:before {
   -o-border-radius: 5px;
   border-radius: 5px;
   content: "";
-  background: #86c643;
+  background: #a5d330;
   padding: 0 10px;
   margin-right: 9px;
 }
 
-/* line 269, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 li.li-cee:before {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4018,7 +4185,7 @@ li.li-cee:before {
   margin-right: 9px;
 }
 
-/* line 277, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 li.li-lfwp:before {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4031,7 +4198,7 @@ li.li-lfwp:before {
   margin-right: 9px;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 li.li-jfc:before {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4044,7 +4211,7 @@ li.li-jfc:before {
   margin-right: 9px;
 }
 
-/* line 294, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 li.li-sql:before {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -4061,13 +4228,12 @@ li.li-sql:before {
 	PRODUCT SITES
 
 **/
-/* line 306, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .sect-product {
-  background-color: #86c643;
-  text-shadow: 0 0px 20px rgba(0, 0, 0, 0.15);
+  background-color: #a5d330;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 321, ../sass/style.scss */
 h1.product {
   color: #FFF;
   font-size: 18px;
@@ -4082,7 +4248,7 @@ h1.product {
   letter-spacing: 1px;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 ul.product {
   color: #FFF;
   font-size: 18px;
@@ -4090,49 +4256,65 @@ ul.product {
   font-weight: 300;
 }
 
-/* line 333, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .kilo {
   color: #FFF;
   font-weight: 100;
   line-height: 1.1;
   font-size: 47.123px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   text-rendering: optimizeLegibility;
   margin-bottom: 18px;
 }
 
-/* line 348, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 h3.description {
-  color: #79b838;
+  color: #96c129;
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.25;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   margin-bottom: 18px;
 }
 
-/* line 360, ../sass/style.scss */
+/* line 369, ../sass/style.scss */
 p.description {
   color: #666;
   font-weight: 100;
 }
 
-/* line 368, ../sass/style.scss */
-.btn--product {
-  background-color: #845cae;
-  color: #FFF;
-  padding: 0.618em 1.618em 0.824em;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+/* line 376, ../sass/style.scss */
+.form-control {
+  border: 1px solid #aaa;
+  color: #34495e;
+  font-size: 15px;
+  margin-top: 12px;
+  font-weight: 100;
+  width: 100%;
+  padding: 12px;
+  margin-right: 48px;
+  height: 48px;
+  -webkit-appearance: none;
   border-radius: 5px;
-  border-bottom: 1px solid #51267d;
-  border-top: 1px solid #b791de;
-  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+/* line 395, ../sass/style.scss */
+.btn--product {
+  background-color: #688914;
+  border: 2px solid #a5d330;
+  color: #FFF;
+  padding: 24px 36px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -4140,27 +4322,115 @@ p.description {
   line-height: 1;
   text-align: center;
   font-size: 24px;
-  text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
-/* line 390, ../sass/style.scss */
+/* line 416, ../sass/style.scss */
+.btn--newsletter {
+  margin-top: 12px;
+  background-color: #F59721;
+  color: #FFF;
+  padding: 18px 24px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 1;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 438, ../sass/style.scss */
 .btn--product:hover {
-  background-color: #906db6;
+  border: 2px solid white;
 }
 
-/* line 397, ../sass/style.scss */
+/* line 447, ../sass/style.scss */
 .btn--product:active {
-  background-color: #7750a0;
-  border-top: 1px solid #51267d;
-  border-bottom: 1px solid #b791de;
-  box-shadow: inset 0px 3px 6px -1px rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  background-color: #35460a;
 }
 
-/* line 405, ../sass/style.scss */
+/* line 452, ../sass/style.scss */
 .btn--subtext {
   font-size: 11.125px;
   margin-top: -1em;
   text-transform: none;
   letter-spacing: normal;
+}
+
+/** FONT ICONS CSS **/
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 482, ../sass/style.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 498, ../sass/style.scss */
+.icon-Student {
+  font-size: 17em;
+  color: white;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* line 504, ../sass/style.scss */
+.icon-Student:before {
+  content: "\e603";
+}
+
+/* line 512, ../sass/style.scss */
+.icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite {
+  font-size: 14em;
+  line-height: 125%;
+  color: #AAA;
+}
+
+/* line 518, ../sass/style.scss */
+.icon-etm_certificate:before {
+  content: "\e600";
+}
+
+/* line 521, ../sass/style.scss */
+.icon-etm_satellite:before {
+  content: "\e601";
+}
+
+/* line 524, ../sass/style.scss */
+.icon-etm_cal_sync:before {
+  content: "\e602";
+}
+
+/* line 529, ../sass/style.scss */
+.icon-etm_catalogue:before {
+  content: "\e604";
+}
+
+/* line 534, ../sass/style.scss */
+.icon-etm_question:before {
+  content: "\e605";
 }
