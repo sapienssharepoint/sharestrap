@@ -4383,7 +4383,7 @@ p.description {
 
 /* line 469, ../sass/style.scss */
 .btn--product-lfwp {
-  background-color: #0e65c8;
+  background-color: #1966bd;
   border-bottom: 3px solid #004da3;
 }
 
@@ -4408,39 +4408,211 @@ p.description {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 700;
+  border-bottom: 2px solid #B96F13;
 }
 
-/* line 501, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 .btn--product-etm:hover {
   background-color: #719d00;
 }
 
-/* line 506, ../sass/style.scss */
+/* line 507, ../sass/style.scss */
 .btn--product-cee:hover {
   background-color: #d8a300;
 }
 
-/* line 510, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 .btn--product-lfwp:hover {
-  background-color: #106fdb;
+  background-color: #2e73c2;
 }
 
-/* line 518, ../sass/style.scss */
+/* line 519, ../sass/style.scss */
 .btn--product-etm:active {
   background-color: #35460a;
 }
 
-/* line 523, ../sass/style.scss */
+/* line 524, ../sass/style.scss */
 .btn--product-cee:active {
   background-color: #775a00;
 }
 
-/* line 528, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 .btn--subtext {
   font-size: 11.125px;
   margin-top: -1em;
   text-transform: none;
   letter-spacing: normal;
+}
+
+/* line 541, ../sass/style.scss */
+.pricing {
+  color: #666;
+}
+
+/* line 545, ../sass/style.scss */
+.pricing_h1-etm, .pricing_h1-lfwp, .pricing_h1-cee {
+  font-size: 47.123px;
+  font-weight: 100;
+  margin: 12px 0 24px;
+}
+
+/* line 552, ../sass/style.scss */
+.pricing_h1-etm, .pricing_h2-etm {
+  color: #96c129;
+}
+
+/* line 556, ../sass/style.scss */
+.pricing_h1-lfwp, .pricing_h2-lfwp {
+  color: #488dda;
+}
+
+/* line 559, ../sass/style.scss */
+.pricing_h1-cee, .pricing_h2-cee {
+  color: #f9c117;
+}
+
+/* line 564, ../sass/style.scss */
+.pricing_cell-etm, .pricing_cell-lfwp, .pricing_cell-cee {
+  background-color: white;
+  font-weight: 100;
+  margin-bottom: 48px;
+}
+
+/* line 570, ../sass/style.scss */
+.pricing_cell-etm h2, .pricing_cell-lfwp h2, .pricing_cell-cee h2 {
+  background-color: #a5d330;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 160%;
+  font-weight: 100;
+}
+
+/* line 579, ../sass/style.scss */
+.pricing_cell-etm h2 {
+  background-color: #a5d330;
+}
+
+/* line 583, ../sass/style.scss */
+.pricing_cell-lfwp h2 {
+  background-color: #5d9adf;
+}
+
+/* line 587, ../sass/style.scss */
+.pricing_cell-cee h2 {
+  background-color: #fac830;
+}
+
+/* line 592, ../sass/style.scss */
+.pricing_cell-etm h3, .pricing_cell-lfwp h3, .pricing_cell-cee h3 {
+  background-color: #91b535;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 100;
+  line-height: 160%;
+  font-size: 47.123px;
+  letter-spacing: -3px;
+}
+
+/* line 603, ../sass/style.scss */
+.pricing_cell-etm h3 {
+  background-color: #91b535;
+}
+
+/* line 607, ../sass/style.scss */
+.pricing_cell-cee h3 {
+  background-color: #eebb23;
+}
+
+/* line 611, ../sass/style.scss */
+.pricing_cell-lfwp h3 {
+  background-color: #538ecf;
+}
+
+/* line 616, ../sass/style.scss */
+.pricing_cell-etm ul, .pricing_cell-cee ul, .pricing_cell-lfwp ul {
+  margin: 0;
+}
+
+/* line 620, ../sass/style.scss */
+.pricing_cell-etm li, .pricing_cell-cee li, .pricing_cell-lfwp li {
+  text-align: center;
+  list-style-type: none;
+  padding: 24px 0;
+  color: #666;
+}
+
+/* line 627, ../sass/style.scss */
+.pricing_cell-etm li {
+  background-color: #ecf2dd;
+}
+
+/* line 631, ../sass/style.scss */
+.pricing_cell-cee li {
+  background-color: #fbf5e2;
+}
+
+/* line 634, ../sass/style.scss */
+.pricing_cell-lfwp li {
+  background-color: #e8eff7;
+}
+
+/* line 639, ../sass/style.scss */
+.pricing_cell-etm li:nth-child(odd), .pricing_cell-cee li:nth-child(odd), .pricing_cell-lfwp li:nth-child(odd) {
+  text-align: center;
+  list-style-type: none;
+  padding: 24px 0;
+  background: white;
+}
+
+/* line 648, ../sass/style.scss */
+.btn_container {
+  background: #CFCFCF;
+  text-align: center;
+  padding: 12px;
+}
+
+/* line 654, ../sass/style.scss */
+.btn_pricing_etm, .btn_pricing_cee, .btn_pricing_lfwp {
+  font-weight: 100;
+  border: rgba(128, 128, 128, 0.2);
+  color: #FFF;
+  padding: 12px 24px;
+  /*-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;*/
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 1;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 5px	!important;
+  text-transform: uppercase;
+}
+
+/* line 677, ../sass/style.scss */
+.btn_pricing_etm {
+  background-color: #759720;
+  border-bottom: 3px solid #4c6a00;
+}
+
+/* line 683, ../sass/style.scss */
+.btn_pricing_cee {
+  background-color: #d8a405;
+  border-bottom: 3px solid #a67e04;
+}
+
+/* line 689, ../sass/style.scss */
+.btn_pricing_lfwp {
+  background-color: #2873c8;
+  border-bottom: 3px solid #1f5b9d;
 }
 
 /** FONT ICONS CSS **/
@@ -4452,7 +4624,7 @@ p.description {
   font-style: normal;
 }
 
-/* line 558, ../sass/style.scss */
+/* line 721, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -4466,110 +4638,110 @@ p.description {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 574, ../sass/style.scss */
+/* line 737, ../sass/style.scss */
 .icon-etm_main_2 {
   font-size: 12.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 580, ../sass/style.scss */
+/* line 743, ../sass/style.scss */
 .icon-cee_main {
   font-size: 7.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 586, ../sass/style.scss */
+/* line 749, ../sass/style.scss */
 .icon-lfwp_main {
   font-size: 14.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 598, ../sass/style.scss */
+/* line 761, ../sass/style.scss */
 .icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
   font-size: 13em;
   line-height: 125%;
   color: #AAA;
 }
 
-/* line 606, ../sass/style.scss */
+/* line 769, ../sass/style.scss */
 .icon-lfwp_tacho:before {
   content: "\e600";
 }
 
-/* line 609, ../sass/style.scss */
+/* line 772, ../sass/style.scss */
 .icon-cee_send_invite:before {
   content: "\e601";
 }
 
-/* line 612, ../sass/style.scss */
+/* line 775, ../sass/style.scss */
 .icon-cee_main:before {
   content: "\e603";
 }
 
-/* line 615, ../sass/style.scss */
+/* line 778, ../sass/style.scss */
 .icon-lwfp_multi_filter:before {
   content: "\e605";
 }
 
-/* line 618, ../sass/style.scss */
+/* line 781, ../sass/style.scss */
 .icon-lfwp_excel:before {
   content: "\e606";
 }
 
-/* line 621, ../sass/style.scss */
+/* line 784, ../sass/style.scss */
 .icon-cee_join_meetings:before {
   content: "\e607";
 }
 
-/* line 624, ../sass/style.scss */
+/* line 787, ../sass/style.scss */
 .icon-cee_status_reply:before {
   content: "\e608";
 }
 
-/* line 627, ../sass/style.scss */
+/* line 790, ../sass/style.scss */
 .icon-lfwp_magic-filter:before {
   content: "\e609";
 }
 
-/* line 630, ../sass/style.scss */
+/* line 793, ../sass/style.scss */
 .icon-etm_certificate:before {
   content: "\e60a";
 }
 
-/* line 633, ../sass/style.scss */
+/* line 796, ../sass/style.scss */
 .icon-etm_catalogue:before {
   content: "\e60b";
 }
 
-/* line 636, ../sass/style.scss */
+/* line 799, ../sass/style.scss */
 .icon-etm_cal_sync:before {
   content: "\e60c";
 }
 
-/* line 639, ../sass/style.scss */
+/* line 802, ../sass/style.scss */
 .icon-etm_question:before {
   content: "\e60d";
 }
 
-/* line 642, ../sass/style.scss */
+/* line 805, ../sass/style.scss */
 .icon-etm_satellite:before {
   content: "\e60e";
 }
 
-/* line 645, ../sass/style.scss */
+/* line 808, ../sass/style.scss */
 .icon-etm_main_2:before {
   content: "\e60f";
 }
 
-/* line 648, ../sass/style.scss */
+/* line 811, ../sass/style.scss */
 .icon-lfwp_datepicker:before {
   content: "\e602";
 }
 
-/* line 651, ../sass/style.scss */
+/* line 814, ../sass/style.scss */
 .icon-lfwp_main:before {
   content: "\e604";
 }
