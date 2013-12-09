@@ -3983,7 +3983,7 @@ html {
 /* line 121, ../sass/style.scss */
 .nav--main {
   font-size: 0.824em;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 10px;
   text-transform: uppercase;
   float: right;
@@ -4038,7 +4038,7 @@ html {
   color: #f00;
   text-decoration: none;
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 1em;
   float: right;
   margin: 0;
@@ -4273,17 +4273,17 @@ ul.product {
   color: #FFF;
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* line 362, ../sass/style.scss */
 .kilo {
   color: #FFF;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.1;
-  font-size: 47.123px;
+  font-size: 49px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   text-rendering: optimizeLegibility;
   margin-bottom: 18px;
 }
@@ -4323,8 +4323,8 @@ h3.description-lfwp {
 
 /* line 409, ../sass/style.scss */
 p.description {
-  color: #666;
-  font-weight: 100;
+  color: #888;
+  font-weight: 400;
 }
 
 /* line 416, ../sass/style.scss */
@@ -4412,17 +4412,17 @@ p.description {
 }
 
 /* line 502, ../sass/style.scss */
-.btn--product-etm:hover {
-  background-color: #719d00;
+.btn--product-etm:hover, .btn_pricing_etm:hover {
+  background-color: #5e8400;
 }
 
 /* line 507, ../sass/style.scss */
-.btn--product-cee:hover {
+.btn--product-cee:hover, .btn_pricing_cee:hover {
   background-color: #d8a300;
 }
 
 /* line 511, ../sass/style.scss */
-.btn--product-lfwp:hover {
+.btn--product-lfwp:hover, .btn_pricing_lfwp:hover {
   background-color: #2e73c2;
 }
 
@@ -4451,7 +4451,7 @@ p.description {
 
 /* line 545, ../sass/style.scss */
 .pricing_h1-etm, .pricing_h1-lfwp, .pricing_h1-cee {
-  font-size: 47.123px;
+  font-size: 49px;
   font-weight: 100;
   margin: 12px 0 24px;
 }
@@ -4511,7 +4511,7 @@ p.description {
   margin-bottom: 0;
   font-weight: 100;
   line-height: 160%;
-  font-size: 47.123px;
+  font-size: 49px;
   letter-spacing: -3px;
 }
 
@@ -4533,32 +4533,33 @@ p.description {
 /* line 616, ../sass/style.scss */
 .pricing_cell-etm ul, .pricing_cell-cee ul, .pricing_cell-lfwp ul {
   margin: 0;
+  font-weight: 400;
 }
 
-/* line 620, ../sass/style.scss */
+/* line 621, ../sass/style.scss */
 .pricing_cell-etm li, .pricing_cell-cee li, .pricing_cell-lfwp li {
   text-align: center;
   list-style-type: none;
   padding: 24px 0;
-  color: #666;
+  color: #888;
 }
 
-/* line 627, ../sass/style.scss */
+/* line 628, ../sass/style.scss */
 .pricing_cell-etm li {
   background-color: #ecf2dd;
 }
 
-/* line 631, ../sass/style.scss */
+/* line 632, ../sass/style.scss */
 .pricing_cell-cee li {
   background-color: #fbf5e2;
 }
 
-/* line 634, ../sass/style.scss */
+/* line 635, ../sass/style.scss */
 .pricing_cell-lfwp li {
   background-color: #e8eff7;
 }
 
-/* line 639, ../sass/style.scss */
+/* line 640, ../sass/style.scss */
 .pricing_cell-etm li:nth-child(odd), .pricing_cell-cee li:nth-child(odd), .pricing_cell-lfwp li:nth-child(odd) {
   text-align: center;
   list-style-type: none;
@@ -4566,14 +4567,14 @@ p.description {
   background: white;
 }
 
-/* line 648, ../sass/style.scss */
+/* line 649, ../sass/style.scss */
 .btn_container {
   background: #CFCFCF;
   text-align: center;
   padding: 12px;
 }
 
-/* line 654, ../sass/style.scss */
+/* line 655, ../sass/style.scss */
 .btn_pricing_etm, .btn_pricing_cee, .btn_pricing_lfwp {
   font-weight: 100;
   border: rgba(128, 128, 128, 0.2);
@@ -4597,19 +4598,19 @@ p.description {
   text-transform: uppercase;
 }
 
-/* line 677, ../sass/style.scss */
+/* line 678, ../sass/style.scss */
 .btn_pricing_etm {
   background-color: #759720;
   border-bottom: 3px solid #4c6a00;
 }
 
-/* line 683, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 .btn_pricing_cee {
   background-color: #d8a405;
   border-bottom: 3px solid #a67e04;
 }
 
-/* line 689, ../sass/style.scss */
+/* line 690, ../sass/style.scss */
 .btn_pricing_lfwp {
   background-color: #2873c8;
   border-bottom: 3px solid #1f5b9d;
@@ -4624,7 +4625,7 @@ p.description {
   font-style: normal;
 }
 
-/* line 721, ../sass/style.scss */
+/* line 722, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -4638,110 +4639,110 @@ p.description {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 737, ../sass/style.scss */
+/* line 738, ../sass/style.scss */
 .icon-etm_main_2 {
   font-size: 12.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 743, ../sass/style.scss */
+/* line 744, ../sass/style.scss */
 .icon-cee_main {
   font-size: 7.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 749, ../sass/style.scss */
+/* line 750, ../sass/style.scss */
 .icon-lfwp_main {
   font-size: 14.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 761, ../sass/style.scss */
+/* line 762, ../sass/style.scss */
 .icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
   font-size: 13em;
   line-height: 125%;
   color: #AAA;
 }
 
-/* line 769, ../sass/style.scss */
+/* line 770, ../sass/style.scss */
 .icon-lfwp_tacho:before {
   content: "\e600";
 }
 
-/* line 772, ../sass/style.scss */
+/* line 773, ../sass/style.scss */
 .icon-cee_send_invite:before {
   content: "\e601";
 }
 
-/* line 775, ../sass/style.scss */
+/* line 776, ../sass/style.scss */
 .icon-cee_main:before {
   content: "\e603";
 }
 
-/* line 778, ../sass/style.scss */
+/* line 779, ../sass/style.scss */
 .icon-lwfp_multi_filter:before {
   content: "\e605";
 }
 
-/* line 781, ../sass/style.scss */
+/* line 782, ../sass/style.scss */
 .icon-lfwp_excel:before {
   content: "\e606";
 }
 
-/* line 784, ../sass/style.scss */
+/* line 785, ../sass/style.scss */
 .icon-cee_join_meetings:before {
   content: "\e607";
 }
 
-/* line 787, ../sass/style.scss */
+/* line 788, ../sass/style.scss */
 .icon-cee_status_reply:before {
   content: "\e608";
 }
 
-/* line 790, ../sass/style.scss */
+/* line 791, ../sass/style.scss */
 .icon-lfwp_magic-filter:before {
   content: "\e609";
 }
 
-/* line 793, ../sass/style.scss */
+/* line 794, ../sass/style.scss */
 .icon-etm_certificate:before {
   content: "\e60a";
 }
 
-/* line 796, ../sass/style.scss */
+/* line 797, ../sass/style.scss */
 .icon-etm_catalogue:before {
   content: "\e60b";
 }
 
-/* line 799, ../sass/style.scss */
+/* line 800, ../sass/style.scss */
 .icon-etm_cal_sync:before {
   content: "\e60c";
 }
 
-/* line 802, ../sass/style.scss */
+/* line 803, ../sass/style.scss */
 .icon-etm_question:before {
   content: "\e60d";
 }
 
-/* line 805, ../sass/style.scss */
+/* line 806, ../sass/style.scss */
 .icon-etm_satellite:before {
   content: "\e60e";
 }
 
-/* line 808, ../sass/style.scss */
+/* line 809, ../sass/style.scss */
 .icon-etm_main_2:before {
   content: "\e60f";
 }
 
-/* line 811, ../sass/style.scss */
+/* line 812, ../sass/style.scss */
 .icon-lfwp_datepicker:before {
   content: "\e602";
 }
 
-/* line 814, ../sass/style.scss */
+/* line 815, ../sass/style.scss */
 .icon-lfwp_main:before {
   content: "\e604";
 }

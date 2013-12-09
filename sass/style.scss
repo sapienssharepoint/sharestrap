@@ -120,7 +120,7 @@ html{
 
 .nav--main {
 	font-size: 0.824em;
-	font-weight: 100;
+	font-weight: 400;
 	margin-top: 10px;
 	text-transform: uppercase;
 	float:right;
@@ -170,7 +170,7 @@ html{
 	color: #f00;
 	text-decoration: none;
 	font-size: 1em;
-	font-weight: 100;
+	font-weight: 400;
 	margin-top: 1em;
 	float:right;
 	margin:0;
@@ -356,18 +356,18 @@ ul.product {
 	color:#FFF;
 	font-size: $base-font-size;
 	line-height: 1.5;
-	font-weight:300;
+	font-weight:400;
 }
 
 .kilo {
 	color:#FFF;
-	font-weight: 100;
+	font-weight: 300;
 	line-height:1.1;
-	font-size: 47.123px;
+	font-size: 49px;
 	//letter-spacing: -2px;
 	font-family: 'Open Sans', sans-serif;
 	//text-transform: uppercase;
-	font-weight: 100;	
+	font-weight: 300;	
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
 
@@ -407,8 +407,8 @@ h3.description-lfwp{
 }
 
 p.description {
-	color: #666;
-	font-weight: 100;
+	color: #888;
+	font-weight: 400;
 
 }
 
@@ -499,16 +499,16 @@ p.description {
 	border-bottom: 2px solid #B96F13;
 }
 
-.btn--product-etm:hover{
-		background-color: darken(saturate($color-etm,100%),20%);
+.btn--product-etm:hover, .btn_pricing_etm:hover{
+		background-color: darken(saturate($color-etm,100%),25%);
 }
 
 
-.btn--product-cee:hover  {
+.btn--product-cee:hover, .btn_pricing_cee:hover{
 	background-color: darken(saturate($color-cee,20%),16%);
 }
 
-.btn--product-lfwp:hover  {
+.btn--product-lfwp:hover, .btn_pricing_lfwp:hover{
 	background-color: darken(desaturate($color-lfwp,5%),15%);
 }
 
@@ -543,7 +543,7 @@ p.description {
 }
 
 .pricing_h1-etm, .pricing_h1-lfwp, .pricing_h1-cee {
-	font-size: 47.123px;
+	font-size: 49px;
 	font-weight: 100;
 	margin: 12px 0 24px;
 	//background: white;
@@ -596,7 +596,7 @@ p.description {
 	margin-bottom:0;
 	font-weight: 100;
 	line-height: 160%;
-	font-size: 47.123px;
+	font-size: 49px;
 	letter-spacing: -3px;
 }
 
@@ -615,13 +615,14 @@ p.description {
 
 .pricing_cell-etm ul, .pricing_cell-cee ul, .pricing_cell-lfwp ul {
 	margin: 0;
+	font-weight: 400;
 }
 
 .pricing_cell-etm li, .pricing_cell-cee li, .pricing_cell-lfwp li{
 	text-align: center;
 	list-style-type: none;
 	padding: 24px 0;
-	color: #666;
+	color: #888;
 }
 
 .pricing_cell-etm li{
