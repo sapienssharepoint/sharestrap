@@ -1,4 +1,4 @@
-@charset "UTF-8";
+	@charset "UTF-8";
 /*------------------------------------*\
     YOUR-PROJECT.CSS
 \*------------------------------------*/
@@ -505,7 +505,7 @@ p.description {
 
 
 .btn--product-cee:hover, .btn_pricing_cee:hover{
-	background-color: darken(saturate($color-cee,20%),16%);
+	background-color: darken(saturate($color-cee,20%),18%);
 }
 
 .btn--product-lfwp:hover, .btn_pricing_lfwp:hover{
@@ -696,9 +696,72 @@ p.description {
 
 
 
+//** BLOG **//
+
+.blog-index {
+	color: #666;
+}
+
+.blog-index h3 a {
+	color: #999;
+	text-decoration: none;
+	font-size:38.382px;
+	font-weight: 100;
+	line-height: 123%;
+	letter-spacing: -1px;
+
+}
+
+.blog-index h3 a:hover {
+	color: #999;
+	text-decoration: underline;
+}
+
+
+.blog-index a {
+	color: rgb(0,122,255);
+	text-decoration: none;
+}
+
+.blog-index a:hover {
+	color: rgb(0,122,255);
+	text-decoration: underline;
+}
 
 
 
+.blog-index ul {
+	margin-left: 0;
+	list-style-type: none;
+	display: table;
+	font-size: 14.833px;
+}
+
+
+.blog-index li {
+	float:left;
+}
+
+.continue-reading {
+	color: white !important;
+	background: #007aff;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 14.833px;
+	border-bottom: 2px solid #94BBE5;
+	float:right;
+}
+
+.continue-reading:hover {
+	color: white !important;
+	background: #348BEB;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-size: 14.833px;
+	border-bottom: 2px solid #94BBE5;
+	float:right;
+	text-decoration: none !important;
+}
 
 
 
