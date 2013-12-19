@@ -142,10 +142,12 @@ html{
 	background: #f2f2f2;
 	@include transition(all .3s ease-out); 
 	@include border-radius(5px);
-
-
 }
-
+.nav--main > li.current_page_item > a{
+	background: rgba(0,0,0,0.1);
+	@include transition(all .3s ease-out); 
+	@include border-radius(5px);
+}
 
 
 .sect-second-etm {
@@ -836,31 +838,50 @@ p.description {
 }
 
 
-.continue-reading {
+.continue-reading,  {
 	color: white !important;
-	background: #007aff;
+	background: darken(saturate($color-neutral,10%),20%);
 	padding: 5px 15px;
 	border-radius: 5px;
 	font-size: 14.833px;
-	border-bottom: 2px solid #94BBE5;
+	border-bottom: 2px solid darken(saturate($color-neutral,70%),30%);
 	float:right;
 }
 
 .continue-reading:hover {
 	color: white !important;
-	background: #348BEB;
-	padding: 5px 15px;
-	border-radius: 5px;
-	font-size: 14.833px;
-	border-bottom: 2px solid #94BBE5;
-	float:right;
+	background: darken(saturate($color-neutral,5%),15%);
 	text-decoration: none !important;
 }
+.continue-reading-cee{
+	background: darken(saturate($color-cee,20%),20%);
+	border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
+}
+.continue-reading-etm{
+	background: darken(saturate($color-etm,20%),20%);
+	border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+}
+.continue-reading-lfwp{
+	background: darken(saturate($color-lfwp,10%),20%);
+	border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
+}
+
+.continue-reading-cee:hover{
+	background: darken(saturate($color-cee,100%),25%);
+}
+.continue-reading-etm:hover{
+	background: darken(saturate($color-etm,20%),15%);
+}
+.continue-reading-lfwp:hover{
+	background: darken(saturate($color-lfwp,5%),15%);
+}
+
+
+
 
 .wrapper.blog-index{
     max-width: 800px;
 }
-
 
 
 
@@ -908,11 +929,21 @@ p.description {
 .wrapper.single-post{
     max-width: 800px;
 }
-.single-post .date { 
+.single-post .date, .categories-links { 
 	margin-bottom:0px;
 }
 
-
+/** BLOG NAVIGATION **/
+.nav-previous, .nav-next
+{
+	display:inline-block;
+}
+.nav-previous{
+	float:left;
+}
+.nav-next{
+	float:right;
+}
 
 /** BREADCRUMB **/
 .breadcrumbs{
@@ -930,7 +961,7 @@ p.description {
 
 /** TRIAL FORM **/
 .header-basic{
-	margin:100px 0 0 0;
+	margin:50px 0 0 0;
 }
 
 .wrapper.trial-form{
@@ -938,6 +969,7 @@ p.description {
 }
 .trial-form {
 	color: #666;
+	font-size:14px;
 }
 .trial-form h1 {
 	font-size: 18px;
@@ -1007,6 +1039,11 @@ p.description {
 	background-color: darken(saturate($color-lfwp,10%),20%);
 	border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
 
+}
+
+.trial-form .trial-key {
+    font-size: 24px;
+    font-weight: 600;
 }
 
 /** FONT ICONS CSS **/
