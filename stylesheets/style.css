@@ -4883,6 +4883,101 @@ p.description {
   text-decoration: underline;
 }
 
+/** TRIAL FORM **/
+/* line 932, ../sass/style.scss */
+.header-basic {
+  margin: 100px 0 0 0;
+}
+
+/* line 936, ../sass/style.scss */
+.wrapper.trial-form {
+  max-width: 600px;
+}
+
+/* line 939, ../sass/style.scss */
+.trial-form {
+  color: #666;
+}
+
+/* line 942, ../sass/style.scss */
+.trial-form h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 14.833px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: normal;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+/* line 955, ../sass/style.scss */
+.trial-form h1.product-cee {
+  color: #f9c117;
+}
+
+/* line 958, ../sass/style.scss */
+.trial-form h3 {
+  color: #999;
+  text-decoration: none;
+  font-size: 38.382px;
+  font-weight: 100;
+  line-height: 123%;
+  letter-spacing: -1px;
+}
+
+/* line 966, ../sass/style.scss */
+.trial-form a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+/* line 971, ../sass/style.scss */
+.trial-form a:hover {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+/* line 976, ../sass/style.scss */
+.btn--get-trial-etm, .btn--get-trial-cee, .btn--get-trial-lfwp {
+  background-color: #688914;
+  border: rgba(128, 128, 128, 0.2);
+  color: #FFF !important;
+  padding: 12px 18px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 1;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 5px	!important;
+  margin: 15px 0px;
+  text-decoration: none !important;
+}
+
+/* line 995, ../sass/style.scss */
+.btn--get-trial-etm {
+  background-color: #6c910c;
+  border-bottom: 3px solid #4c6a00;
+}
+
+/* line 1000, ../sass/style.scss */
+.btn--get-trial-cee {
+  background-color: #c49300;
+  border-bottom: 3px solid #916d00;
+}
+
+/* line 1006, ../sass/style.scss */
+.btn--get-trial-lfwp {
+  background-color: #1966bd;
+  border-bottom: 3px solid #004da3;
+}
+
 /** FONT ICONS CSS **/
 @font-face {
   font-family: 'icomoon';
@@ -4892,7 +4987,7 @@ p.description {
   font-style: normal;
 }
 
-/* line 947, ../sass/style.scss */
+/* line 1028, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -4906,110 +5001,110 @@ p.description {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 963, ../sass/style.scss */
+/* line 1044, ../sass/style.scss */
 .icon-etm_main_2 {
   font-size: 12.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 969, ../sass/style.scss */
+/* line 1050, ../sass/style.scss */
 .icon-cee_main {
   font-size: 7.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 975, ../sass/style.scss */
+/* line 1056, ../sass/style.scss */
 .icon-lfwp_main {
   font-size: 14.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 987, ../sass/style.scss */
+/* line 1068, ../sass/style.scss */
 .icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
   font-size: 13em;
   line-height: 125%;
   color: #AAA;
 }
 
-/* line 995, ../sass/style.scss */
+/* line 1076, ../sass/style.scss */
 .icon-lfwp_tacho:before {
   content: "\e600";
 }
 
-/* line 998, ../sass/style.scss */
+/* line 1079, ../sass/style.scss */
 .icon-cee_send_invite:before {
   content: "\e601";
 }
 
-/* line 1001, ../sass/style.scss */
+/* line 1082, ../sass/style.scss */
 .icon-cee_main:before {
   content: "\e603";
 }
 
-/* line 1004, ../sass/style.scss */
+/* line 1085, ../sass/style.scss */
 .icon-lwfp_multi_filter:before {
   content: "\e605";
 }
 
-/* line 1007, ../sass/style.scss */
+/* line 1088, ../sass/style.scss */
 .icon-lfwp_excel:before {
   content: "\e606";
 }
 
-/* line 1010, ../sass/style.scss */
+/* line 1091, ../sass/style.scss */
 .icon-cee_join_meetings:before {
   content: "\e607";
 }
 
-/* line 1013, ../sass/style.scss */
+/* line 1094, ../sass/style.scss */
 .icon-cee_status_reply:before {
   content: "\e608";
 }
 
-/* line 1016, ../sass/style.scss */
+/* line 1097, ../sass/style.scss */
 .icon-lfwp_magic-filter:before {
   content: "\e609";
 }
 
-/* line 1019, ../sass/style.scss */
+/* line 1100, ../sass/style.scss */
 .icon-etm_certificate:before {
   content: "\e60a";
 }
 
-/* line 1022, ../sass/style.scss */
+/* line 1103, ../sass/style.scss */
 .icon-etm_catalogue:before {
   content: "\e60b";
 }
 
-/* line 1025, ../sass/style.scss */
+/* line 1106, ../sass/style.scss */
 .icon-etm_cal_sync:before {
   content: "\e60c";
 }
 
-/* line 1028, ../sass/style.scss */
+/* line 1109, ../sass/style.scss */
 .icon-etm_question:before {
   content: "\e60d";
 }
 
-/* line 1031, ../sass/style.scss */
+/* line 1112, ../sass/style.scss */
 .icon-etm_satellite:before {
   content: "\e60e";
 }
 
-/* line 1034, ../sass/style.scss */
+/* line 1115, ../sass/style.scss */
 .icon-etm_main_2:before {
   content: "\e60f";
 }
 
-/* line 1037, ../sass/style.scss */
+/* line 1118, ../sass/style.scss */
 .icon-lfwp_datepicker:before {
   content: "\e602";
 }
 
-/* line 1040, ../sass/style.scss */
+/* line 1121, ../sass/style.scss */
 .icon-lfwp_main:before {
   content: "\e604";
 }

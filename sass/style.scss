@@ -928,6 +928,87 @@ p.description {
 }
 
 
+/** TRIAL FORM **/
+.header-basic{
+	margin:100px 0 0 0;
+}
+
+.wrapper.trial-form{
+    max-width: 600px;
+}
+.trial-form {
+	color: #666;
+}
+.trial-form h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom:14.833px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 12px;
+	letter-spacing: 1px;
+}
+.trial-form h1.product-cee 
+{
+	color: darken($color-cee,5%);
+}
+.trial-form h3{
+	color: #999;
+	text-decoration: none;
+	font-size:38.382px;
+	font-weight: 100;
+	line-height: 123%;
+	letter-spacing: -1px;
+}
+.trial-form a {
+	color: rgb(0,122,255);
+	text-decoration: none;
+}
+
+.trial-form a:hover {
+	color: rgb(0,122,255);
+	text-decoration: underline;
+}
+
+.btn--get-trial-etm, .btn--get-trial-cee, .btn--get-trial-lfwp {
+	background-color: #688914;
+	border: rgba(128,128,128,0.2);
+	color: #FFF !important;
+	padding: 12px 18px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	line-height: 1;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border-radius:5px	!important;
+	margin:15px 0px ;
+	text-decoration: none !important;
+}
+
+.btn--get-trial-etm {
+	background-color: darken(saturate($color-etm,20%),20%);
+	border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+}
+
+.btn--get-trial-cee {
+	background-color: darken(saturate($color-cee,20%),20%);
+	border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
+
+}
+
+.btn--get-trial-lfwp {
+	background-color: darken(saturate($color-lfwp,10%),20%);
+	border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
+
+}
+
 /** FONT ICONS CSS **/
 
 
