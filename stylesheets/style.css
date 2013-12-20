@@ -4977,7 +4977,17 @@ p.description {
   color: #f9c117;
 }
 
-/* line 990, ../sass/style.scss */
+/* line 991, ../sass/style.scss */
+.trial-form h1.product-etm {
+  color: #96c129;
+}
+
+/* line 995, ../sass/style.scss */
+.trial-form h1.product-lfwp {
+  color: #488dda;
+}
+
+/* line 998, ../sass/style.scss */
 .trial-form h3 {
   color: #999;
   text-decoration: none;
@@ -4987,19 +4997,19 @@ p.description {
   letter-spacing: -1px;
 }
 
-/* line 998, ../sass/style.scss */
+/* line 1006, ../sass/style.scss */
 .trial-form a {
   color: #007aff;
   text-decoration: none;
 }
 
-/* line 1003, ../sass/style.scss */
+/* line 1011, ../sass/style.scss */
 .trial-form a:hover {
   color: #007aff;
   text-decoration: underline;
 }
 
-/* line 1008, ../sass/style.scss */
+/* line 1016, ../sass/style.scss */
 .btn--get-trial-etm, .btn--get-trial-cee, .btn--get-trial-lfwp {
   background-color: #688914;
   border: rgba(128, 128, 128, 0.2);
@@ -5019,25 +5029,25 @@ p.description {
   text-decoration: none !important;
 }
 
-/* line 1027, ../sass/style.scss */
+/* line 1035, ../sass/style.scss */
 .btn--get-trial-etm {
   background-color: #6c910c;
   border-bottom: 3px solid #4c6a00;
 }
 
-/* line 1032, ../sass/style.scss */
+/* line 1040, ../sass/style.scss */
 .btn--get-trial-cee {
   background-color: #c49300;
   border-bottom: 3px solid #916d00;
 }
 
-/* line 1038, ../sass/style.scss */
+/* line 1046, ../sass/style.scss */
 .btn--get-trial-lfwp {
   background-color: #1966bd;
   border-bottom: 3px solid #004da3;
 }
 
-/* line 1044, ../sass/style.scss */
+/* line 1052, ../sass/style.scss */
 .trial-form .trial-key {
   font-size: 24px;
   font-weight: 600;
@@ -5052,7 +5062,7 @@ p.description {
   font-style: normal;
 }
 
-/* line 1065, ../sass/style.scss */
+/* line 1073, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -5066,110 +5076,110 @@ p.description {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 1081, ../sass/style.scss */
+/* line 1089, ../sass/style.scss */
 .icon-etm_main_2 {
   font-size: 12.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1087, ../sass/style.scss */
+/* line 1095, ../sass/style.scss */
 .icon-cee_main {
   font-size: 7.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1093, ../sass/style.scss */
+/* line 1101, ../sass/style.scss */
 .icon-lfwp_main {
   font-size: 14.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1105, ../sass/style.scss */
+/* line 1113, ../sass/style.scss */
 .icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
   font-size: 13em;
   line-height: 125%;
   color: #AAA;
 }
 
-/* line 1113, ../sass/style.scss */
+/* line 1121, ../sass/style.scss */
 .icon-lfwp_tacho:before {
   content: "\e600";
 }
 
-/* line 1116, ../sass/style.scss */
+/* line 1124, ../sass/style.scss */
 .icon-cee_send_invite:before {
   content: "\e601";
 }
 
-/* line 1119, ../sass/style.scss */
+/* line 1127, ../sass/style.scss */
 .icon-cee_main:before {
   content: "\e603";
 }
 
-/* line 1122, ../sass/style.scss */
+/* line 1130, ../sass/style.scss */
 .icon-lwfp_multi_filter:before {
   content: "\e605";
 }
 
-/* line 1125, ../sass/style.scss */
+/* line 1133, ../sass/style.scss */
 .icon-lfwp_excel:before {
   content: "\e606";
 }
 
-/* line 1128, ../sass/style.scss */
+/* line 1136, ../sass/style.scss */
 .icon-cee_join_meetings:before {
   content: "\e607";
 }
 
-/* line 1131, ../sass/style.scss */
+/* line 1139, ../sass/style.scss */
 .icon-cee_status_reply:before {
   content: "\e608";
 }
 
-/* line 1134, ../sass/style.scss */
+/* line 1142, ../sass/style.scss */
 .icon-lfwp_magic-filter:before {
   content: "\e609";
 }
 
-/* line 1137, ../sass/style.scss */
+/* line 1145, ../sass/style.scss */
 .icon-etm_certificate:before {
   content: "\e60a";
 }
 
-/* line 1140, ../sass/style.scss */
+/* line 1148, ../sass/style.scss */
 .icon-etm_catalogue:before {
   content: "\e60b";
 }
 
-/* line 1143, ../sass/style.scss */
+/* line 1151, ../sass/style.scss */
 .icon-etm_cal_sync:before {
   content: "\e60c";
 }
 
-/* line 1146, ../sass/style.scss */
+/* line 1154, ../sass/style.scss */
 .icon-etm_question:before {
   content: "\e60d";
 }
 
-/* line 1149, ../sass/style.scss */
+/* line 1157, ../sass/style.scss */
 .icon-etm_satellite:before {
   content: "\e60e";
 }
 
-/* line 1152, ../sass/style.scss */
+/* line 1160, ../sass/style.scss */
 .icon-etm_main_2:before {
   content: "\e60f";
 }
 
-/* line 1155, ../sass/style.scss */
+/* line 1163, ../sass/style.scss */
 .icon-lfwp_datepicker:before {
   content: "\e602";
 }
 
-/* line 1158, ../sass/style.scss */
+/* line 1166, ../sass/style.scss */
 .icon-lfwp_main:before {
   content: "\e604";
 }
