@@ -5053,6 +5053,73 @@ p.description {
   font-weight: 600;
 }
 
+/** CUSTOM 404 **/
+/* line 1058, ../sass/style.scss */
+.wrapper.custom-404 {
+  max-width: 700px;
+}
+
+/* line 1062, ../sass/style.scss */
+.custom-404 {
+  color: #666;
+}
+
+/* line 1066, ../sass/style.scss */
+.custom-404 h1 {
+  font-size: 44px;
+  font-weight: 100;
+  margin-bottom: 14.833px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: normal;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+/* line 1077, ../sass/style.scss */
+.custom-404 a {
+  color: #007aff;
+  text-decoration: none;
+}
+
+/* line 1082, ../sass/style.scss */
+.custom-404 a:hover {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+/** SEARCH FORM **/
+/* line 1089, ../sass/style.scss */
+#searchform .form-control {
+  width: auto;
+  max-width: 300px;
+  margin-right: 0px;
+}
+
+/* line 1094, ../sass/style.scss */
+.btn--search {
+  background-color: #F59721;
+  color: #FFF;
+  padding: 18px 24px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 1;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: 2px solid #B96F13;
+}
+
 /** FONT ICONS CSS **/
 @font-face {
   font-family: 'icomoon';
@@ -5062,7 +5129,7 @@ p.description {
   font-style: normal;
 }
 
-/* line 1073, ../sass/style.scss */
+/* line 1131, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -5076,110 +5143,110 @@ p.description {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 1089, ../sass/style.scss */
+/* line 1147, ../sass/style.scss */
 .icon-etm_main_2 {
   font-size: 12.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1095, ../sass/style.scss */
+/* line 1153, ../sass/style.scss */
 .icon-cee_main {
   font-size: 7.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1101, ../sass/style.scss */
+/* line 1159, ../sass/style.scss */
 .icon-lfwp_main {
   font-size: 14.5em;
   color: white;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 1113, ../sass/style.scss */
+/* line 1171, ../sass/style.scss */
 .icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
   font-size: 13em;
   line-height: 125%;
   color: #AAA;
 }
 
-/* line 1121, ../sass/style.scss */
+/* line 1179, ../sass/style.scss */
 .icon-lfwp_tacho:before {
   content: "\e600";
 }
 
-/* line 1124, ../sass/style.scss */
+/* line 1182, ../sass/style.scss */
 .icon-cee_send_invite:before {
   content: "\e601";
 }
 
-/* line 1127, ../sass/style.scss */
+/* line 1185, ../sass/style.scss */
 .icon-cee_main:before {
   content: "\e603";
 }
 
-/* line 1130, ../sass/style.scss */
+/* line 1188, ../sass/style.scss */
 .icon-lwfp_multi_filter:before {
   content: "\e605";
 }
 
-/* line 1133, ../sass/style.scss */
+/* line 1191, ../sass/style.scss */
 .icon-lfwp_excel:before {
   content: "\e606";
 }
 
-/* line 1136, ../sass/style.scss */
+/* line 1194, ../sass/style.scss */
 .icon-cee_join_meetings:before {
   content: "\e607";
 }
 
-/* line 1139, ../sass/style.scss */
+/* line 1197, ../sass/style.scss */
 .icon-cee_status_reply:before {
   content: "\e608";
 }
 
-/* line 1142, ../sass/style.scss */
+/* line 1200, ../sass/style.scss */
 .icon-lfwp_magic-filter:before {
   content: "\e609";
 }
 
-/* line 1145, ../sass/style.scss */
+/* line 1203, ../sass/style.scss */
 .icon-etm_certificate:before {
   content: "\e60a";
 }
 
-/* line 1148, ../sass/style.scss */
+/* line 1206, ../sass/style.scss */
 .icon-etm_catalogue:before {
   content: "\e60b";
 }
 
-/* line 1151, ../sass/style.scss */
+/* line 1209, ../sass/style.scss */
 .icon-etm_cal_sync:before {
   content: "\e60c";
 }
 
-/* line 1154, ../sass/style.scss */
+/* line 1212, ../sass/style.scss */
 .icon-etm_question:before {
   content: "\e60d";
 }
 
-/* line 1157, ../sass/style.scss */
+/* line 1215, ../sass/style.scss */
 .icon-etm_satellite:before {
   content: "\e60e";
 }
 
-/* line 1160, ../sass/style.scss */
+/* line 1218, ../sass/style.scss */
 .icon-etm_main_2:before {
   content: "\e60f";
 }
 
-/* line 1163, ../sass/style.scss */
+/* line 1221, ../sass/style.scss */
 .icon-lfwp_datepicker:before {
   content: "\e602";
 }
 
-/* line 1166, ../sass/style.scss */
+/* line 1224, ../sass/style.scss */
 .icon-lfwp_main:before {
   content: "\e604";
 }

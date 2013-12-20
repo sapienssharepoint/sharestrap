@@ -1054,6 +1054,64 @@ p.description {
     font-weight: 600;
 }
 
+/** CUSTOM 404 **/
+.wrapper.custom-404{
+    max-width: 700px;
+}
+.custom-404
+{
+	color: #666;
+}
+.custom-404 h1 
+{
+	font-size: 44px;
+	font-weight: 100;
+	margin-bottom:14.833px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 12px;
+	letter-spacing: 1px;
+}
+.custom-404 a {
+	color: rgb(0,122,255);
+	text-decoration: none;
+}
+
+.custom-404 a:hover {
+	color: rgb(0,122,255);
+	text-decoration: underline;
+}
+
+/** SEARCH FORM **/
+#searchform .form-control
+{
+	width:auto;
+	max-width:300px;
+	margin-right:0px;
+}
+.btn--search {
+	background-color: #F59721;
+	color: #FFF;
+	padding: 18px 24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 5px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	line-height: 1;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-bottom: 2px solid #B96F13;
+}
 /** FONT ICONS CSS **/
 
 
