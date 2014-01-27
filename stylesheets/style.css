@@ -4315,7 +4315,7 @@ li.li-sql:before {
 **/
 /* line 332, ../sass/style.scss */
 .index__banner {
-  background: url(../img/index_BG.png) no-repeat center center fixed;
+  background: url(../img/index_bg.png) no-repeat center center fixed;
   background-size: cover;
   margin-top: 24px;
 }
