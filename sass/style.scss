@@ -130,8 +130,7 @@ html{
 .nav--main > li > a {
 	color: #888888;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	letter-spacing: 2px;
 
 
@@ -319,6 +318,72 @@ li.li-sql:before {
 	padding: 0 10px;
 	margin-right: 9px;
 }
+
+
+/**
+
+	INDEX/HOME
+
+**/
+
+
+.index__banner {
+	background: url(../img/index_BG.png) no-repeat center center fixed;
+	background-size:cover;
+	margin-top: 24px;
+}
+
+
+.index_product_grid {
+	margin-top: 24px;
+}
+
+.index__products {
+	margin-top: 48px;
+	font-size:32px;
+	font-weight: 100;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+
+}
+
+.index__box {
+	text-align:left;
+	//padding: 12px 24px;
+}
+
+.index__box__desc {
+    background: rgba(0,0,0,0.1);
+	padding:24px 24px 6px 24px;
+}
+
+.index__box h4 {
+	color: white;
+	text-align: left;
+	margin-bottom: 12px;
+}
+
+.index__box p {
+	color: white;
+	text-align: left;
+}
+
+.index__box__cee {
+	background-color: $color-cee;
+	text-align: center;
+}
+
+.index__box__lfwp {
+	background-color: $color-lfwp;
+	text-align: center;
+
+}
+
+.index__box__etm {
+	background-color: $color-etm;
+	text-align: center;
+}
+
+
 /**
 	PRODUCT SITES
 
@@ -344,10 +409,9 @@ h1.product {
 	color:#FFF;
 	font-size: 18px;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: bold;
 	margin-bottom:14.833px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	text-transform: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 12px;
@@ -364,17 +428,27 @@ ul.product {
 
 .kilo {
 	color:#FFF;
-	font-weight: 300;
 	line-height:1.1;
 	font-size: 49px;
 	//letter-spacing: -2px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	//text-transform: uppercase;
-	font-weight: 300;	
+	font-weight: 100;	
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
+}
 
 
+.mega {
+	color:#FFF;
+	font-weight: 100;
+	line-height:1.1;
+	font-size: 60px;
+	//letter-spacing: -2px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+	//text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 18px;
 }
 
 h3.description-etm {
@@ -382,7 +456,7 @@ h3.description-etm {
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.25;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	font-weight: 100;
 	margin-bottom:18px;
 
@@ -394,7 +468,7 @@ h3.description-cee {
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.25;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	font-weight: 100;
 	margin-bottom:18px;
 }
@@ -404,35 +478,35 @@ h3.description-lfwp{
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.25;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	font-weight: 100;
 	margin-bottom:18px;
 }
 
 p.description {
 	color: #888;
-	font-weight: 400;
-
+	font-family: 'Cambria', Georgia, serif;
 }
 
 
 .form-control {
 	border: 1px solid #aaa;
 	color: #34495e;
-	font-size: 15px;
+	font-size: 12px;
 	margin-top: 12px;
 	font-weight: 100;
-	width: 100%;
+	width: 75%;
+	float: none;
 	padding: 12px;
 	margin-right: 48px;
-	height: 48px;
+	height: 36px;
 	-webkit-appearance: none;
 	border-radius: 5px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
 	transition: border .25s linear, color .25s linear, background-color .25s linear;
-}
+	cursor:text;}
 
 
 .btn--product-etm, .btn--product-cee, .btn--product-lfwp {
@@ -454,24 +528,24 @@ p.description {
 	font-size: 24px;
 	letter-spacing: 1px;
 	font-weight: 700;
-	border-radius:5px	!important;
+	border-radius:10px	!important;
 	//box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.3);
 }
 
 .btn--product-etm {
 	background-color: darken(saturate($color-etm,20%),20%);
-	border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
 }
 
 .btn--product-cee {
-	background-color: darken(saturate($color-cee,20%),20%);
-	border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
+	background-color: darken(saturate($color-cee,40%),10%);
+	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
 
 }
 
 .btn--product-lfwp {
 	background-color: darken(saturate($color-lfwp,10%),20%);
-	border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
 
 }
 
@@ -481,9 +555,9 @@ p.description {
 
 .btn--newsletter {
 	margin-top: 12px;
-	background-color: #F59721;
+	background-color: #5D9CEC;
 	color: #FFF;
-	padding: 18px 24px;
+	padding: 12px 24px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -498,8 +572,10 @@ p.description {
 	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-weight: 700;
-	border-bottom: 2px solid #B96F13;
+	font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+
+	//font-weight: 700;
+	//border-bottom: 2px solid #B96F13;
 }
 
 .btn--product-etm:hover, .btn_pricing_etm:hover{
@@ -536,6 +612,13 @@ p.description {
 	letter-spacing: normal;
 }
 
+
+//* FOOTER *//
+
+.sect_foot {
+	background-color: #656d78;
+	color: #ccd1d9;
+}
 
 //** PRICING **//
 
@@ -963,21 +1046,26 @@ p.description {
 .icon-etm_main_2{
 	font-size: 12.5em;;
 	color:white;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
 }
 
 .icon-cee_main {
 	font-size: 7.5em;
 	color:white;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
 }
+
 
 .icon-lfwp_main {
 	font-size: 14.5em;
 	color:white;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
 }
 
+
+//Changes for Index-Site
+.icon_index {
+	font-size: 5em;
+	color:white;
+	padding-top: 48px;
+}
 
 
 
@@ -987,7 +1075,7 @@ p.description {
 .icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
 	font-size: 13em;
 	line-height:125%;
-	color: #AAA;
+	color: #CCD1D9;
 }
 
 
