@@ -452,11 +452,11 @@ li.li-sql:before {
 .fscf-div-field input, .fscf-input-textarea {
 	width: 100%;
 	max-width: 800px;
-	color: #34495e;
+	color: #688914;
 	font-size: 18px;
 	font-weight: 100;
 	float: none;
-	padding: 12px;
+	padding: 6px 12px;
 	height: 48px;
 	-webkit-appearance: none;
 	border-radius: 5px;
@@ -500,6 +500,11 @@ li.li-sql:before {
     margin-bottom: 48px;
     border: none;
 }
+
+.fscf-div-error {
+	color: #E74727;
+}
+
 
 .btn--contactform:hover {
 	background-color: #4a89dc;
@@ -743,6 +748,17 @@ p.description {
 	color: #ccd1d9;
 }
 
+.sect_foot a {
+	color: #5D9CEC; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.sect_foot a:hover {
+	text-decoration: underline;
+}
+
+
 //** PRICING **//
 
 
@@ -835,14 +851,14 @@ p.description {
 }
 
 .pricing_cell-etm li{
-	background-color: desaturate(lighten($color-etm,40%),20%);
+	background-color: desaturate(lighten($color-etm,30%),20%);
 }
 
 .pricing_cell-cee li{
-	background-color: desaturate(lighten($color-cee,35%),20%);
+	background-color: desaturate(lighten($color-cee,28%),20%);
 }
 .pricing_cell-lfwp li{
-	background-color: desaturate(lighten($color-lfwp,32%),20%);
+	background-color: desaturate(lighten($color-lfwp,29%),20%);
 }
 
 
