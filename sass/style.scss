@@ -157,7 +157,6 @@ html{
 	border: 1px solid #e6e9ed;
 }
 
-
 .sect-second-etm {
 	background-color: desaturate(darken($color-etm,5%),10%);
 }
@@ -467,6 +466,8 @@ li.li-sql:before {
 
 .index__box {
 	text-align:left;
+	text-decoration:none;
+	display:block;
 	//padding: 12px 24px;
 }
 
@@ -1050,19 +1051,19 @@ p.description {
 	background-color: $color-cee;
 }
 
-.pricing_cell-cee h2{
+.pricing_cell-evm h2{
 	background-color: $color-evm;
 }
 
-.pricing_cell-cee h2{
+.pricing_cell-ett h2{
 	background-color: $color-ett;
 }
 
-.pricing_cell-cee h2{
+.pricing_cell-lp h2{
 	background-color: $color-lp;
 }
 
-.pricing_cell-cee h2{
+.pricing_cell-bdc h2{
 	background-color: $color-bdc;
 }
 
@@ -1978,8 +1979,6 @@ p.description {
 	color: #CCD1D9;
 }
 
-
-
 .icon-lfwp_tacho:before {
 	content: "\e600";
 }
@@ -2029,4 +2028,20 @@ p.description {
 	content: "\e604";
 }
 
+
+//mobile navigation
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+	.nav--main, .nav--second {
+	        width:100%;
+	        float:none;
+	}
+	.nav--main > li, .nav--second > li {
+	        display: block;
+	        padding-right: 0px;
+	}
+	.nav--main > li > a, .nav--second > li > a {
+	        display: block;
+	}
+}
 
