@@ -91,12 +91,22 @@ h1 {
  * Place any of your own variables that sit on top of inuit.css here.
  */
 
-$color-etm: desaturate(/*#86C643*/#a0d468,0%);
-$color-cee: desaturate(#ffce54,0%);
-$color-lfwp: desaturate(#fc6e51,0%);
+$color-etm: #a0d468;
+$color-cee: #ffce54;
+$color-lfwp: #fc6e51;
+$color-evm: #ed5565;
+$color-ett: #48cdad;
+$color-lp: #ac92ec;
+$color-bdc: #EC87c0;
+
+/*
 $color-jfc: desaturate(#a74bf5,20%);
 $color-sql: desaturate(#ff4949,20%);
+*/
 
-$color-neutral: desaturate(#4A99F2,20%);
+
+
+
+$color-neutral: desaturate(#4a89dc,0%);
 
 //lila:a74bf5 orage:fe9b44

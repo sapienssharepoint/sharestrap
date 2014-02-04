@@ -152,9 +152,9 @@ html{
 	@include border-radius(5px);
 }
 .nav--main > li.current_page_item > a{
-	background: rgba(0,0,0,0.1);
 	@include transition(all .3s ease-out); 
 	@include border-radius(5px);
+	border: 1px solid #e6e9ed;
 }
 
 
@@ -289,6 +289,8 @@ html{
 	background: #EEEEEE;
 }
 
+/*
+
 li.li-etm:before {
 	@include border-radius(5px);
 	content: "";
@@ -329,7 +331,84 @@ li.li-sql:before {
 	padding: 0 10px;
 	margin-right: 9px;
 }
+*/
 
+
+.a-etm:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-etm;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+.a-cee:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-cee;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+.a-lfwp:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-lfwp;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+/*
+.a-jfc:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-jfc;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+.a-sql:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-sql;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+*/
+
+.a-evm:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-evm;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+
+.a-ett:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-ett;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+.a-lp:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-lp;
+	padding: 0 10px;
+	margin-right: 9px;
+}
+
+.a-bdc:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-bdc;
+	padding: 0 10px;
+	margin-right: 9px;
+}
 
 /**
 
@@ -502,12 +581,12 @@ li.li-sql:before {
 }
 
 .fscf-div-error {
-	color: #E74727;
+	color: #4a89dc;
 }
 
 
 .btn--contactform:hover {
-	background-color: #4a89dc;
+	background-color: #5d9cec;
 }
 
 
@@ -583,9 +662,8 @@ h3.description-etm {
 	color: darken($color-etm,5%);
 	font-size: 29.124px;
 	font-weight: 500;
-	line-height: 1.25;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
-	font-weight: 100;
+	line-height: 1.2;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	margin-bottom:18px;
 
 
@@ -595,9 +673,8 @@ h3.description-cee {
 	color: darken($color-cee,5%);
 	font-size: 29.124px;
 	font-weight: 500;
-	line-height: 1.25;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
-	font-weight: 100;
+	line-height: 1.2;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	margin-bottom:18px;
 }
 
@@ -605,15 +682,14 @@ h3.description-lfwp{
 	color: darken($color-lfwp,5%);
 	font-size: 29.124px;
 	font-weight: 500;
-	line-height: 1.25;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
-	font-weight: 100;
+	line-height: 1.2;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 	margin-bottom:18px;
 }
 
 p.description {
-	color: #888;
-	font-family: 'Cambria', Georgia, serif;
+	color: #656d78;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
 }
 
 
@@ -683,7 +759,7 @@ p.description {
 
 .btn--newsletter {
 	margin-top: 12px;
-	background-color: #5D9CEC;
+	background-color: #4a89dc;
 	color: #FFF;
 	padding: 12px 24px;
 	-webkit-border-radius: 10px;
@@ -738,6 +814,11 @@ p.description {
 	margin-top: -1em;
 	text-transform: none;
 	letter-spacing: normal;
+}
+
+
+.bg-lg {
+	background: #f5f7fa;
 }
 
 
@@ -847,7 +928,7 @@ p.description {
 	text-align: center;
 	list-style-type: none;
 	padding: 24px 0;
-	color: #888;
+	color: #656d78;
 }
 
 .pricing_cell-etm li{
@@ -902,19 +983,19 @@ p.description {
 
 .btn_pricing_etm{
 	background-color: darken($color-etm,15%);
-	border-bottom: 3px solid #4c6a00;
+	//border-bottom: 3px solid #4c6a00;
 
 }
 
 .btn_pricing_cee{
 	background-color: darken($color-cee,15%);
-	border-bottom: 3px solid darken($color-cee,25%);
+	//border-bottom: 3px solid darken($color-cee,25%);
 
 }
 
 .btn_pricing_lfwp{
 	background-color: darken($color-lfwp,15%);
-	border-bottom: 3px solid darken($color-lfwp,25%);
+	//border-bottom: 3px solid darken($color-lfwp,25%);
 }
 
 
@@ -928,7 +1009,7 @@ p.description {
 {
 	text-decoration: none;
 	line-height: 1.25;
-	font-family: 'Open Sans', sans-serif;
+	//font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 }
 .page-index h3.description-cee a {
@@ -1009,81 +1090,219 @@ p.description {
 
 //** BLOG **//
 
+.blog-bar {
+	background: #4a89dc;
+	padding: 0;
+}
+
+.blog-search-bar {
+	text-align: right;
+	margin-bottom: 12px;
+}
+
+.rss{
+	float: right;
+	margin-left: 12px;
+	color: white;
+	font-size: 11px;
+}
+
+.blog-header {
+	background: #5d9cec;
+}
+
+.blog-header-container{
+	padding: 0 24px;
+}
+
+.blog-header-container h2 {
+	margin-bottom: 0;
+}
+
+.blog-header-container h2 {
+	color: white;
+	margin: 0;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+	font-weight: lighter;
+	margin-bottom:12px;
+}
+
 .blog-index {
-	color: #666;
+	color: #656D78;
 }
 
 .blog-index h1 {
-	color: #999;
-	font-size:49px;
+	color: white;
+	font-size:76.245px;
 	font-weight: 100;
 	line-height: 123%;
 	letter-spacing: -1px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+	margin-bottom: 6px;
+}
 
+.blog-index h3 {
+	margin-bottom: 12px;
 }
 
 .blog-index h3 a {
-	color: #999;
+	color: #5d9cec;
 	text-decoration: none;
-	font-size:38.382px;
-	font-weight: 100;
-	line-height: 123%;
+	font-size: 29.24px;	//font-weight: 100;
+	line-height: 120%;
 	letter-spacing: -1px;
-
+	transition: .2s linear;
+	font-family: /*"wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light",*/"Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+	font-weight: bold;
 }
 
 .blog-index h3 a:hover {
-	color: #999;
-	text-decoration: underline;
+	color: #4a89dc;
+	//text-decoration: underline;
 }
 
 
 .blog-index a {
-	color: rgb(0,122,255);
-	text-decoration: none;
+	color: #5d9cec;
+	text-decoration: none;	
+	//font-weight: bold;
 }
 
 .blog-index a:hover {
-	color: rgb(0,122,255);
-	text-decoration: underline;
+	color: #4a89dc;
+	text-decoration: none;	
 }
 
 
 
-.blog-index ul {
+.blog-index ul, .single-post ul {
 	margin-left: 0;
 	list-style-type: none;
 	display: table;
 	font-size: 14.833px;
+	color: #aab2bd;
+	font-style: italic;
+	margin-bottom: 12px;
 }
 
 
-.continue-reading,  {
+.blog-index li, .single-post li {
+	display: inline;
+	//margin-right: 0px;
+}
+
+.description {
+	font-size: 18px;
+	color: #656d78;
+	line-height: 140%;
+}
+
+
+
+
+.categories-links a[href$='/category/sharepoint/'], .categories-links a[href$='/category/list-filter-web-part/'], .categories-links a[href$='/category/calendar-email-extension/'], .categories-links a[href$='/category/employee-training-management/']  {
+	color: #656d78;
+	padding: 5px 12px 6px;
+	font-size: 11px;
+	//border: 1px solid #e6e9ed;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-right: 12px;
+	font-style: normal;
+	margin-left: -12px;
+}
+
+.categories-links a[href$='/category/list-filter-web-part/']:before {
+	@include border-radius(2px);
+	content: "";
+	background: $color-lfwp;
+	padding: 0 5px;
+	margin-right: 4px;
+	font-size: 7px;
+	vertical-align: 10%;
+
+}
+
+.categories-links a[href$='/category/calendar-email-extension/']:before {
+	@include border-radius(2px);
+	content: "";
+	background: $color-cee;
+	padding: 0 5px;
+	margin-right: 4px;
+	font-size: 7px;
+	vertical-align: 10%;
+}
+
+.categories-links a[href$='/category/employee-training-management/']:before {
+	@include border-radius(2px);
+	content: "";
+	background: $color-etm;
+	padding: 0 5px;
+	margin-right: 4px;
+	font-size: 7px;
+	vertical-align: 10%;
+}
+
+.categories-links .post-categories li {
+	display: inline;
+}
+
+.categories-links a[href$='/category/sharepoint/']:before {
+	@include border-radius(2px);
+	content: "";
+	background: $color-neutral;
+	padding: 0 5px;
+	margin-right: 4px;
+	font-size: 7px;
+	vertical-align: 10%;
+}
+
+
+.continue-reading, .btn--search  {
 	color: white !important;
-	background: darken(saturate($color-neutral,10%),20%);
+	background: #4a89dc;
 	padding: 5px 15px;
 	border-radius: 5px;
-	font-size: 14.833px;
-	border-bottom: 2px solid darken(saturate($color-neutral,70%),30%);
 	float:right;
+	transition: all 0.2s ease-in-out;
+	line-height: 1;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+	padding: 12px 24px;
 }
+
+.btn--search {
+	float: none;
+	background-color: #ccd1d9;
+	color: #656d78 !important;
+	transition: .2s linear;
+}
+
+.btn--search:hover {
+	background-color: #e6e9ed;
+}
+
 
 .continue-reading:hover {
 	color: white !important;
-	background: darken(saturate($color-neutral,5%),15%);
+	background: #5D9CEC;
 	text-decoration: none !important;
 }
 .continue-reading-cee{
 	background: darken(saturate($color-cee,20%),20%);
-	border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
 }
 .continue-reading-etm{
 	background: darken(saturate($color-etm,20%),20%);
-	border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
 }
 .continue-reading-lfwp{
 	background: darken(saturate($color-lfwp,10%),20%);
-	border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
 }
 
 .continue-reading-cee:hover{
@@ -1111,28 +1330,40 @@ p.description {
 	color: #666;
 }
 
-.single-post h1 {
-	color: #999;
-	font-size:49px;
-	font-weight: 100;
-	line-height: 123%;
-	letter-spacing: -1px;
+.single-post img {
+	border: 1px solid #e6e9ed;
+	padding: 24px;
+	background: white;
+}
 
+
+.single-post h1 {
+	color: white;
+	font-size: 49px;
+	line-height: 110%;
+	letter-spacing: -2px;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+	margin-bottom: 18px;
 }
 
 .single-post h2{
-	color: #999;
-	font-size:38.382px;
-	font-weight: 100;
+	color: #5d9cec;
+	font-size: 29px;
 	line-height: 123%;
 	letter-spacing: -1px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-top: 48px;
 }
+
 .single-post h3{
-	color: #999;
-	font-size:29.124px;
-	font-weight: 100;
+	color: #aab2bd;
+	font-size: 24px;
 	line-height: 123%;
 	letter-spacing: -1px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-top: 48px;
 }
 
 
@@ -1145,6 +1376,34 @@ p.description {
 	color: rgb(0,122,255);
 	text-decoration: underline;
 }
+
+.article-paragraph {
+	font-size: 18px;
+	color: #656D78;
+	line-height: 150%;
+	margin-top: -12px;
+}
+
+
+#article-product {
+	margin-bottom: 6px;
+}
+
+
+#article-product .post-categories a {
+	color: white;
+}
+
+#article-product ul, #article-product li {
+	color: white;
+	font-style: normal;
+}
+
+#article-product a {
+	font-weight: bold;
+	color: white;
+}
+
 
 .wrapper.single-post{
     max-width: 800px;
@@ -1196,7 +1455,7 @@ p.description {
 	text-transform: uppercase;
 	font-weight: 100;
 	margin-bottom:14.833px;
-	font-family: 'Open Sans', sans-serif;
+	//font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	text-transform: normal;
 	text-rendering: optimizeLegibility;
@@ -1254,18 +1513,18 @@ p.description {
 
 .btn--get-trial-etm {
 	background-color: darken(saturate($color-etm,20%),20%);
-	border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
 }
 
 .btn--get-trial-cee {
 	background-color: darken(saturate($color-cee,20%),20%);
-	border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
 
 }
 
 .btn--get-trial-lfwp {
 	background-color: darken(saturate($color-lfwp,10%),20%);
-	border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
+	//border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
 
 }
 
@@ -1287,7 +1546,7 @@ p.description {
 	font-size: 44px;
 	font-weight: 100;
 	margin-bottom:14.833px;
-	font-family: 'Open Sans', sans-serif;
+	//font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	text-transform: normal;
 	text-rendering: optimizeLegibility;
@@ -1311,8 +1570,10 @@ p.description {
 	max-width:300px;
 	margin-right:0px;
 }
+
+/*
 .btn--search {
-	background-color: #F59721;
+	background-color: #4a89dc;
 	color: #FFF;
 	padding: 18px 24px;
 	-webkit-border-radius: 10px;
@@ -1330,8 +1591,11 @@ p.description {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 700;
-	border-bottom: 2px solid #B96F13;
+	//border-bottom: 2px solid #B96F13;
 }
+
+
+*/
 /** FONT ICONS CSS **/
 
 
