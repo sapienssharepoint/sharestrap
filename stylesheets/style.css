@@ -4143,6 +4143,7 @@ html {
   margin-top: 1em;
   float: right;
   margin: 0;
+  padding-bottom: 0px;
 }
 
 /* line 205, ../sass/style.scss */
@@ -5140,7 +5141,7 @@ p.description {
 }
 
 /* line 1109, ../sass/style.scss */
-.pricing_cell-etm ul, .pricing_cell-cee ul, .pricing_cell-lfwp ul {
+.pricing_cell-etm ul, .pricing_cell-cee ul, .pricing_cell-lfwp ul, .pricing_cell-evm ul, .pricing_cell-ett ul, .pricing_cell-lp ul, .pricing_cell-bdc ul {
   margin: 0;
   font-weight: 400;
 }
@@ -6218,5 +6219,10 @@ p.description {
   /* line 2043, ../sass/style.scss */
   .nav--main > li > a, .nav--second > li > a {
     display: block;
+  }
+
+  /* line 2046, ../sass/style.scss */
+  .flyout__content {
+    width: 100%;
   }
 }
