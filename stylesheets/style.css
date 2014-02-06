@@ -863,7 +863,7 @@ ul, ol, dd {
 \*------------------------------------*/
 /* line 4, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-inuit-5.0.2/stylesheets/compass-inuit/base/_main.scss */
 html {
-  font: 1.125em/1.33333 "Segoe UI", "Segoe", "Segoe WP", "Calibri", "Tahoma", "Verdana", "Arial", "sans-serif";
+  font: 1.125em/1.33333 "Segoe UI", "Segoe", "Segoe WP", "Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   overflow-y: scroll;
   min-height: 100%;
 }
@@ -4040,24 +4040,20 @@ html {
   text-align: center;
 }
 
-/* line 122, ../sass/style.scss */
-.grid--rev {
-  float: right;
-}
-
 /**
 	NAV
 **/
-/* line 131, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .logo {
-  margin: 8px 24px 0px;
+  margin: 4px 12px 12px;
+  height: 50px;
 }
 
 /* line 135, ../sass/style.scss */
 .nav--main {
   font-size: 0.824em;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 12px;
   text-transform: uppercase;
   float: right;
   margin-bottom: 0;
@@ -4065,15 +4061,15 @@ html {
 
 /* line 144, ../sass/style.scss */
 .nav--main > li > a {
-  color: #888888;
+  color: #656d78;
   text-decoration: none;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri","Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 2px;
 }
 
 /* line 154, ../sass/style.scss */
 .nav--main > li > a:hover {
-  background: #f2f2f2;
+  background: #f5f7fa;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -4168,7 +4164,7 @@ html {
   height: 0;
   margin-left: 7px;
   vertical-align: middle;
-  border-top: 8px solid #888888;
+  border-top: 8px solid #656d78;
   border-right: 5px solid transparent;
   border-bottom: 0 dotted;
   border-left: 5px solid transparent;
@@ -4248,7 +4244,7 @@ html {
 /* line 284, ../sass/style.scss */
 .flyout__content > ul > li > a {
   text-decoration: none;
-  color: #666;
+  color: #656d78;
   display: block;
 }
 
@@ -4269,7 +4265,7 @@ html {
 
 /* line 303, ../sass/style.scss */
 .flyout__content > ul > li:hover {
-  background: #f2f2f2;
+  background: #f5f7fa;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -4474,7 +4470,7 @@ li.li-sql:before {
   margin-top: 48px;
   font-size: 32px;
   font-weight: 100;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 /* line 472, ../sass/style.scss */
@@ -4564,7 +4560,7 @@ li.li-sql:before {
   font-weight: 100;
   line-height: 1.1;
   font-size: 49px;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
   margin-bottom: 18px;
   letter-spacing: -2px;
@@ -4592,7 +4588,7 @@ li.li-sql:before {
   font-weight: 100;
   line-height: 1.1;
   font-size: 49px;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
   margin: 36px 0px;
   letter-spacing: -2px;
@@ -4648,7 +4644,7 @@ li.li-sql:before {
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   -webkit-appearance: none;
   margin-bottom: 48px;
   border: none;
@@ -4710,7 +4706,7 @@ h1.product {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 14.833px;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   text-transform: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 12px;
@@ -4730,7 +4726,7 @@ ul.product {
   color: #FFF;
   line-height: 1.1;
   font-size: 49px;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 100;
   text-rendering: optimizeLegibility;
   margin-bottom: 18px;
@@ -4742,7 +4738,7 @@ ul.product {
   font-weight: 100;
   line-height: 1.1;
   font-size: 60px;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
   margin-bottom: 18px;
 }
@@ -4753,7 +4749,7 @@ h3.description-etm {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -4763,7 +4759,7 @@ h3.description-cee {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -4773,7 +4769,7 @@ h3.description-lfwp {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -4783,7 +4779,7 @@ h3.description-evm {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -4793,7 +4789,7 @@ h3.description-ett {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -4803,7 +4799,7 @@ h3.description-lp {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -4813,14 +4809,14 @@ h3.description-bdc {
   font-size: 29.124px;
   font-weight: 500;
   line-height: 1.2;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
 /* line 799, ../sass/style.scss */
 p.description {
   color: #656d78;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 /* line 805, ../sass/style.scss */
@@ -4922,7 +4918,7 @@ p.description {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 /* line 913, ../sass/style.scss */
@@ -5003,13 +4999,13 @@ p.description {
 
 /* line 992, ../sass/style.scss */
 .pricing {
-  color: #666;
+  color: #656d78;
 }
 
 /* line 996, ../sass/style.scss */
 .pricing_h1-etm, .pricing_h1-lfwp, .pricing_h1-cee, .pricing_h1-evm, .pricing_h1-ett, .pricing_h1-lp, .pricing_h1-bdc {
-  font-size: 49px;
-  font-weight: 100;
+  font-size: 29.124px;
+  font-weight: bold;
   margin: 12px 0 24px;
 }
 
@@ -5205,7 +5201,7 @@ p.description {
 
 /* line 1165, ../sass/style.scss */
 .btn_container {
-  background: #CFCFCF;
+  background: #CCD1D9;
   text-align: center;
   padding: 12px;
 }
@@ -5271,7 +5267,7 @@ p.description {
 
 /* line 1234, ../sass/style.scss */
 .page-index {
-  color: #888;
+  color: #656d78;
 }
 
 /* line 1238, ../sass/style.scss */
@@ -5345,7 +5341,7 @@ p.description {
 
 /* line 1288, ../sass/style.scss */
 .single-page {
-  color: #666;
+  color: #656d78;
 }
 
 /* line 1291, ../sass/style.scss */
@@ -5459,7 +5455,7 @@ p.description {
 .blog-header-container h2 {
   color: white;
   margin: 0;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: lighter;
   margin-bottom: 12px;
 }
@@ -5476,7 +5472,7 @@ p.description {
   font-weight: 100;
   line-height: 123%;
   letter-spacing: -1px;
-  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 6px;
 }
 
@@ -5493,7 +5489,7 @@ p.description {
   line-height: 120%;
   letter-spacing: -1px;
   transition: .2s linear;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: bold;
 }
 
@@ -5628,7 +5624,7 @@ p.description {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   padding: 12px 24px;
 }
 
@@ -5729,7 +5725,7 @@ p.description {
 
 /* line 1611, ../sass/style.scss */
 .single-post {
-  color: #666;
+  color: #656d78;
 }
 
 /* line 1615, ../sass/style.scss */
@@ -5745,7 +5741,7 @@ p.description {
   font-size: 49px;
   line-height: 110%;
   letter-spacing: -2px;
-  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Tahoma","Verdana","Arial","sans-serif";
+  font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -5847,13 +5843,13 @@ p.description {
 
 /* line 1713, ../sass/style.scss */
 .breadcrumbs a {
-  color: #007aff;
+  color: #5D9CEC;
   text-decoration: none;
 }
 
 /* line 1717, ../sass/style.scss */
 .breadcrumbs a:hover {
-  color: #007aff;
+  color: #4a89dc;
   text-decoration: underline;
 }
 
@@ -5870,7 +5866,7 @@ p.description {
 
 /* line 1731, ../sass/style.scss */
 .trial-form {
-  color: #666;
+  color: #656d78;
   font-size: 14px;
 }
 
@@ -6013,7 +6009,7 @@ p.description {
 
 /* line 1862, ../sass/style.scss */
 .custom-404 {
-  color: #666;
+  color: #656d78;
 }
 
 /* line 1866, ../sass/style.scss */
@@ -6230,4 +6226,156 @@ p.description {
   .flyout__content {
     width: 100%;
   }
+}
+@media only screen and (max-width: 480px) {
+  /* line 2058, ../sass/style.scss */
+  .grid--table {
+    display: table;
+  }
+
+  /* line 2062, ../sass/style.scss */
+  .grid--table-tfg {
+    display: table-footer-group;
+  }
+
+  /* line 2066, ../sass/style.scss */
+  .grid--table-thg {
+    display: table-header-group;
+  }
+}
+/*** ACCORDION --- Taken from: http://bradfrost.github.io/this-is-responsive/patterns/fluid-accordion.html **/
+/* line 2078, ../sass/style.scss */
+.accordion .panel-title {
+  margin: 0;
+  padding: 5px 12px 12px;
+  -webkit-transition: .3s all ease-in-out;
+  -moz-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  background: #E6E9ED;
+  color: #656d78;
+}
+
+/* line 2088, ../sass/style.scss */
+.accordion .panel-title:hover {
+  background: #CCD1d9;
+}
+
+/* line 2092, ../sass/style.scss */
+.accordion .panel-title:active,
+.accordion .panel-title.active:active {
+  background: #656d78;
+}
+
+/* line 2095, ../sass/style.scss */
+.accordion .panel-title.active {
+  background: #E6E9ED;
+}
+
+/* line 2098, ../sass/style.scss */
+.accordion .accordion-innerwrap {
+  margin: 0 auto;
+}
+
+/* line 2103, ../sass/style.scss */
+.accordion .panel-title .icon,
+.accordion .panel-title.active .icon {
+  font-size: 1.25em;
+}
+
+/* line 2107, ../sass/style.scss */
+.panel-container {
+  margin: 12px 0;
+}
+
+/* line 2111, ../sass/style.scss */
+.panel-content {
+  list-style-type: none;
+  margin: 0;
+  padding: 24px;
+  background: white;
+  color: #656d78;
+  line-height: 150%;
+}
+
+/* line 2120, ../sass/style.scss */
+.panel-content li {
+  border-bottom: 1px dotted #AAA;
+  padding: 24px;
+}
+
+/* line 2124, ../sass/style.scss */
+.panel-content li:last-child {
+  border-bottom: none;
+  padding-bottom: none;
+}
+
+/* line 2129, ../sass/style.scss */
+.panel-content > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #656d78;
+}
+
+/* line 2135, ../sass/style.scss */
+.panel-content > li > a:hover {
+  text-decoration: underline;
+}
+
+/* line 2140, ../sass/style.scss */
+.js .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 2153, ../sass/style.scss */
+.js .visuallyhidden.focusable,
+.js .visuallyhidden.focusable,
+.no-js .visuallyhidden {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 2164, ../sass/style.scss */
+.js .visuallyhidden.focusable:active,
+.js .visuallyhidden.focusable:focus,
+.no-js .visuallyhidden {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 2173, ../sass/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 2178, ../sass/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 2182, ../sass/style.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 2186, ../sass/style.scss */
+.list-reset {
+  padding: 0;
+  list-style: none;
 }
