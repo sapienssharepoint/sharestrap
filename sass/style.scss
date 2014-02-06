@@ -1428,7 +1428,7 @@ p.description {
 
 
 
-.blog-index ul, .single-post ul {
+.blog-index ul.entry-meta, .single-post ul.entry-meta, .blog-index .categories-links ul, .single-post .categories-links ul {
 	margin-left: 0;
 	list-style-type: none;
 	display: table;
@@ -1439,7 +1439,7 @@ p.description {
 }
 
 
-.blog-index li, .single-post li {
+.blog-index ul.entry-meta li, .single-post ul.entry-meta li, .blog-index .categories-links ul li, .single-post .categories-links ul li {
 	display: inline;
 	//margin-right: 0px;
 }
