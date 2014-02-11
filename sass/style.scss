@@ -90,6 +90,19 @@
  @import "customers/*.png";
  @include all-customers-sprites;*/
 
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #CCD1D9;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #CCD1D9;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #CCD1D9;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #CCD1D9;
+}
+
 
 .customers-sprite, .customers-Agnico_Eagle, .customers-Aircom, .customers-Australia_Post, .customers-BMELV, .customers-Columbia_College, .customers-Discovery_Communications, .customers-Florida_University, .customers-Fresenius, .customers-ING, .customers-JHU_APL, .customers-L3_Communications, .customers-LandisGyr, .customers-Lenze, .customers-Lufthansa, .customers-MetLife, .customers-Michigan_State_University, .customers-Microsoft, .customers-Moss-Adams, .customers-NorthShore, .customers-Robert_Stern_Architects, .customers-Roland_Berger, .customers-Styria, .customers-TDS_Fujitsu, .customers-pwc {
   background: url('../img/customers-s0f014b051e.png') no-repeat !important;
@@ -455,9 +468,15 @@ li.li-sql:before {
 
 
 .index__banner {
-	background: url(../img/index_bg.png) no-repeat center center fixed;
-	background-size:cover;
-	margin-top: 24px;
+	background: #5d9cec;
+}
+
+.index__subheadline {
+	color: white;
+	margin: 0;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 100;
+	margin-bottom: 12px;
 }
 
 
@@ -466,11 +485,12 @@ li.li-sql:before {
 }
 
 .index__products {
-	margin-top: 48px;
-	font-size:32px;
-	font-weight: 100;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
-
+	margin: 0 24px 24px;
+	font-size: 29.24px;
+	font-weight: normal;
+	font-family: "wf_SegoeUI","Segoe UI","Segoe WP","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	color: #656d78;
+	letter-spacing: -1px;
 }
 
 .index__box {
@@ -538,36 +558,48 @@ li.li-sql:before {
 
 
 .wwa__banner {
-	background: url(../img/vienna.jpg) no-repeat center center;
-	background-size:cover;
-	margin-top: 24px;
-
+	background: #5d9cec;
 }
 
 .wwa {
-	font-size: 20px;
+	font-size: 29px;
+	color: white;
+	color: white;
+	margin: 0;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 100;
+	margin-bottom: 12px;
 }
 
-.wwa__header, .wwa__header_cust {
-	color: #656d78;
-	font-weight: 100;
-	line-height: 1.1;
+.wwa__header  {
+	color: white;
 	font-size: 49px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	line-height: 1.1;
+	font-family: "wf_SegoeUI", "Segoe WP", "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
 	letter-spacing: -2px;
+}
+
+.wwa__header_cust {
+	color: #5d9cec;
+	font-size: 49px;
+	font-weight: 100;	
+	font-family: "wf_SegoeUI", "Segoe WP", "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	text-rendering: optimizeLegibility;
+	letter-spacing: -2px;
+	margin: 12px 24px -12px
 }
 
 
 
 .logo__box {
 	text-align:center;
-	padding: 36px;
+	padding: 30px 36px;
 }
 
 .logo_img {
-		max-height: 50px;
+	max-height: 72px;
 }
 
 .wwa__contact {
@@ -576,13 +608,15 @@ li.li-sql:before {
 
 .wwa__contact h2 {
 	color: #FFF;
-	font-weight: 100;
-	line-height: 1.1;
-	font-size: 49px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
-	text-rendering: optimizeLegibility;
-	margin: 36px 0px;
+	margin: 24px;
 	letter-spacing: -2px;
+	font-size: 49px;
+	line-height: 1.1;
+	font-family: "wf_SegoeUI", "Segoe WP", "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 18px;
+	letter-spacing: -2px;
+	font-weight: normal;
 
 }
 
@@ -708,27 +742,23 @@ ul.product {
 }
 
 .kilo {
-	color:#FFF;
-	line-height:1.1;
+	color: #FFF;
+	line-height: 1.1;
 	font-size: 49px;
-	letter-spacing: -1px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
-	//text-transform: uppercase;
-	font-weight: 100;	
+	letter-spacing: -2px;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI ","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
 }
 
 
 .mega {
-	color:#FFF;
-	font-weight: 100;
-	line-height:1.1;
-	font-size: 60px;
-	//letter-spacing: -2px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
-	//text-transform: uppercase;
-	text-rendering: optimizeLegibility;
+	color: white;
+	font-size: 49px;
+	line-height: 110%;
+	letter-spacing: -2px;
+	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom: 18px;
 }
 
@@ -812,7 +842,7 @@ p.description {
 	font-size: 12px;
 	margin-top: 12px;
 	font-weight: 100;
-	width: 75%;
+	width: 100%;
 	float: none;
 	padding: 6px 12px;
 	margin-right: 48px;
@@ -973,13 +1003,35 @@ p.description {
 
 //* FOOTER *//
 
+.sect_breadcrumb {
+	background-color:  #58616e;;
+}
+
+.breadcrumbs {
+	font-size: 14.833px !important;
+	color: #aab2bd;
+	padding: 6px 24px;
+}
+
+.breadcrumbs a {
+	color: #aab2bd;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.breadcrumbs a:hover {
+	color: #aab2bd;
+	text-decoration: underline;
+}
+
 .sect_foot {
 	background-color: #656d78;
 	color: #ccd1d9;
+	margin-bottom: -18px;
 }
 
 .sect_foot a {
-	color: #5D9CEC; 
+	color: #ccd1d9; 
 	text-decoration: none; 
 	font-weight: bold;
 }
@@ -987,6 +1039,53 @@ p.description {
 .sect_foot a:hover {
 	text-decoration: underline;
 }
+
+.h_footer {
+	margin-bottom: 12px;
+	font-size: 29px;
+	letter-spacing: -1px;
+	color: #aab2bd;
+}
+
+.p_footer {
+	font-size: 14.833px;
+	margin-bottom: 0;
+
+}
+
+.p_footer_strong {
+	margin: 12px 0;
+}
+
+.legal {
+	background: #58616e;
+	color: #ccd1d9;
+	text-align: left;
+	font-size: 15px;
+	/* border-top: 1px solid #4F5763; */
+}
+
+.p_legal {
+	margin-bottom: 2px;
+	color: #4F5763;
+	font-size: 13px;
+}
+
+
+.p_legal a {
+	margin: 0 24px;
+	font-size: 13px;
+	color: #aab2bd;
+	text-decoration: none;
+}
+
+.p_legal a:hover {
+	margin: 0 24px;
+	font-size: 13px;
+	color: #aab2bd;
+	text-decoration: none;
+}
+
 
 
 //** PRICING **//
@@ -1345,6 +1444,43 @@ p.description {
 	text-decoration: underline;
 }
 
+
+//** TOC -- TABLE OF CONTENTS **/
+
+#toc {
+	background: #f5f7fa;
+	padding: 24px 0;
+	width: 100% !important;
+	font-size: 18px;
+	border: none !important;
+	line-height: 140%;
+}
+
+#toc ul, #toc li {
+	list-style-type: none;
+	color: red;
+	margin-left: 12px;
+}
+
+#toc ul {
+	font-weight: bold !important;
+	margin-bottom: 24px;
+
+}
+
+#toc li {
+	font-weight: normal !important;
+	margin: 9px 0 9px 24px;
+}
+
+#toc ul>a, #toc li>a {
+	color: red;
+}
+
+#toc ul>a {
+	font-weight: bold;
+}
+
 //** BLOG **//
 
 .blog-bar {
@@ -1601,6 +1737,22 @@ p.description {
 	background: darken(saturate($color-bdc,5%),15%);
 }
 
+
+.bwp-syntax-block {
+    margin: 10px 0px;
+    position: relative;
+    color: #434a54;
+    background-color: #ffffff;
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier;
+    /*ie fix*/
+    zoom: 1;
+    border: 1px solid #e6e9ed;
+    padding: 24px;
+    /* margin: -24px; */
+}
+
  //PAGINATION
 
 .wp-pagenavi {
@@ -1738,18 +1890,6 @@ p.description {
 	float:right;
 }
 
-/** BREADCRUMB **/
-.breadcrumbs{
-	font-size:14px;
-}
-.breadcrumbs a{
-	color: #5D9CEC;
-	text-decoration: none;
-}
-.breadcrumbs a:hover {
-	color: #4a89dc;
-	text-decoration: underline;
-}
 
 
 /** TRIAL FORM **/
