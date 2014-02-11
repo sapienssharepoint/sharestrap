@@ -128,8 +128,8 @@ html{
 **/
 
 .logo {
-	margin: 4px 12px 12px;
-	height: 50px;
+	margin: 6px 12px 15px;
+	height: 40px;
 }
 
 .nav--main {
@@ -711,7 +711,7 @@ ul.product {
 	color:#FFF;
 	line-height:1.1;
 	font-size: 49px;
-	//letter-spacing: -2px;
+	letter-spacing: -1px;
 	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	//text-transform: uppercase;
 	font-weight: 100;	
@@ -1626,7 +1626,7 @@ p.description {
 	font-weight: bold;
 	background: #5d9cec;
 	color: white;	
-	border: 1px solid tranparent;
+	border: 1px solid transparent;
 }
 
 
@@ -1955,14 +1955,13 @@ p.description {
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot');
-	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon.woff') format('woff'),
-		url('../fonts/icomoon.svg#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-1b4kiz');
+	src:url('../fonts/icomoon.eot?#iefix-1b4kiz') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-1b4kiz') format('woff'),
+		url('../fonts/icomoon.ttf?-1b4kiz') format('truetype'),
+		url('../fonts/icomoon.svg?-1b4kiz#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
-
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -1977,25 +1976,40 @@ p.description {
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
 }
 
 
 .icon-etm_main_2{
 	font-size: 12.5em;;
-	color:white;
+	color: rgba(255,255,255,0.5);
 }
 
-.icon-cee_main {
-	font-size: 7.5em;
-	color:white;
+.icon-cee_icon {
+	font-size: 11.5em;
+	color: rgba(255,255,255,0.5);
 }
 
 
 .icon-lfwp_main {
 	font-size: 14.5em;
-	color:white;
+	color: rgba(255,255,255,0.5);
 }
+
+.icon-ett_icon {
+	font-size: 10.5em;
+	color: rgba(255,255,255,0.5);
+}
+
+.icon-lp_icon {
+	font-size: 12em;
+	color: rgba(255,255,255,0.5);
+}
+
+.icon-bdc_icon {
+	font-size: 11em;
+	color: rgba(255,255,255,0.5);
+}
+
 
 
 //Changes for Index-Site
@@ -2010,9 +2024,9 @@ p.description {
 
 
 
-.icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker {
-	font-size: 13em;
-	line-height:125%;
+.icon-etm_catalogue, .icon-etm_cal_sync, .icon-etm_question, .icon-etm_certificate, .icon-etm_satellite, .icon-cee_send_invite, .icon-cee_join_meetings, .icon-cee_status_reply, .icon-lfwp_excel, .icon-lwfp_multi_filter, .icon-lfwp_magic-filter, .icon-lfwp_tacho, .icon-lfwp_datepicker, .icon-bdc_integrate, .icon-bdc_schedule, .icon-bdc_sharepoint, .icon-lp_performance, .icon-lp_dialog, .icon-lp_table, .icon-lp_add, .icon-ett_monitor, .icon-ett_report, .icon-ett_project, .icon-cee_watch, .icon-cee_private {
+	font-size: 11.5em;
+	line-height:150%;
 	color: #CCD1D9;
 }
 
@@ -2058,12 +2072,62 @@ p.description {
 .icon-etm_main_2:before {
 	content: "\e60f";
 }
-.icon-lfwp_datepicker:before {
-	content: "\e602";
-}
 .icon-lfwp_main:before {
 	content: "\e604";
 }
+.icon-lfwp_datepicker:before {
+	content: "\e602";
+}
+.icon-ett_monitor:before {
+	content: "\e610";
+}
+.icon-cee_watch:before {
+	content: "\e611";
+}
+.icon-lp_dialog:before {
+	content: "\e612";
+}
+.icon-ett_report:before {
+	content: "\e615";
+}
+.icon-bdc_integrate:before {
+	content: "\e616";
+}
+.icon-ett_icon:before {
+	content: "\e618";
+}
+.icon-cee_icon:before {
+	content: "\e619";
+}
+.icon-bdc_icon:before {
+	content: "\e61a";
+}
+.icon-bdc_schedule:before {
+	content: "\e61b";
+}
+.icon-ett_project:before {
+	content: "\e61c";
+}
+.icon-lp_icon:before {
+	content: "\e61d";
+}
+.icon-lp_table:before {
+	content: "\e617";
+}
+.icon-lp_performance:before {
+	content: "\e613";
+}
+.icon-lp_add:before {
+	content: "\e614";
+}
+.icon-bdc_sharepoint:before {
+	content: "\e61e";
+}
+
+.icon-cee_private:before {
+	content: "\e61f";
+}
+
 
 
 //mobile navigation
