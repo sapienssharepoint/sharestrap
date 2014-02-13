@@ -298,6 +298,7 @@ html{
 	text-decoration: none;
 	color: #656d78;
 	display:block;
+	padding-right:29px;
 }
 
 .flyout__content > ul > li > a:active {
@@ -388,24 +389,30 @@ li.li-sql:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-etm;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 .a-cee:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-cee;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 .a-lfwp:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-lfwp;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 /*
@@ -431,8 +438,10 @@ li.li-sql:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-evm;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 
@@ -440,24 +449,30 @@ li.li-sql:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-ett;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 .a-lp:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-lp;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 .a-bdc:before {
 	@include border-radius(5px);
 	content: "";
 	background: $color-bdc;
-	padding: 0 10px;
+	padding: 10px 10px;
 	margin-right: 9px;
+	display:block;
+	float:left;
 }
 
 /**
@@ -2383,7 +2398,7 @@ p.description {
 
 
 //mobile navigation
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 	.nav--main, .nav--second {
 	        width:100%;
@@ -2398,6 +2413,9 @@ p.description {
 	}
 	.flyout__content{
 		width: 100%;
+	}
+	.flyout__content > ul > li > a {
+	white-space:normal;
 	}
 }
 
