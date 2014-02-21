@@ -93,7 +93,7 @@
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #CCD1D9;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { /* Mozilla Firefox 4 to 18  */
     color:    #CCD1D9;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
@@ -1720,7 +1720,7 @@ p.description {
 
 
 
-.categories-links a[href$='/category/sharepoint/'], .categories-links a[href$='/category/list-filter-web-part/'], .categories-links a[href$='/category/calendar-email-extension/'], .categories-links a[href$='/category/employee-training-management/']  {
+.categories-links a[href$='/category/sharepoint/'], .categories-links a[href$='/category/list-filter-web-part/'], .categories-links a[href$='/category/calendar-email-extension/'], .categories-links a[href$='/category/employee-training-management/'], .categories-links a[href$='/category/project-management-and-time-tracking/']{
 	color: #656d78;
 	padding: 5px 12px 6px;
 	font-size: 11px;
@@ -1758,6 +1758,16 @@ p.description {
 	@include border-radius(2px);
 	content: "";
 	background: $color-etm;
+	padding: 0 5px;
+	margin-right: 4px;
+	font-size: 7px;
+	vertical-align: 10%;
+}
+
+.categories-links a[href$='/category/project-management-and-time-tracking/']:before {
+	@include border-radius(2px);
+	content: "";
+	background: $color-ett;
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
