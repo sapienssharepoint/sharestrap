@@ -12,7 +12,7 @@
 
 
 $base-font-size:    18px!default;
-$base-font-family:  "Segoe UI","Segoe","Segoe WP", "Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+$base-font-family:  "Segoe UI","Segoe","Segoe WP", "Open Sans", "Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 
 
 
@@ -62,6 +62,9 @@ $golden:  1.61803398874989;
 /**
  * Place any variables that should override inuit.css’ defaults here.
  */
+
+$lap-start:         600px!default;
+
 
 .grid--middle > .grid__item, .grid--middle > .content, .grid--middle > .sub-content, .grid--middle > .footer__item {
   vertical-align: middle;

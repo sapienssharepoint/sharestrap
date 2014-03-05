@@ -141,23 +141,23 @@ html{
 **/
 
 .logo {
-	margin: 6px 12px 15px;
-	height: 40px;
+	margin: 6px 13px 15px;
+	height: 32px;
 }
 
 .nav--main {
 	font-size: 0.824em;
 	font-weight: 400;
-	margin-top: 12px;
+	margin-top: 6px;
 	text-transform: uppercase;
-	float:right;
-	margin-bottom:0;
+	float: right;
+	margin-bottom: 0;
 }
 
 .nav--main > li > a {
 	color: #656d78;
 	text-decoration: none;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri","Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri","Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	letter-spacing: 2px;
 	border: 1px solid white;
 
@@ -482,30 +482,45 @@ li.li-sql:before {
 **/
 
 
-.index__banner {
-	background: #5d9cec;
+.index__banner_top {
+	background: #4a89dc;
 }
+
+.index__banner_top .mega {
+	text-align:center;
+	padding: 5px 0 0px;
+	font-family: "Segoe UI Semibold","Segoe WP Semibold","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.index__banner_bottom {
+	background: #5d9cec;
+	text-align: center;
+	font-size: 30px;
+}
+
 
 .index__subheadline {
 	color: white;
 	margin: 0;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: 100;
 	margin-bottom: 12px;
 }
 
 
 .index_product_grid {
-	margin-top: 24px;
+	padding-top: 24px;
+	background: #f5f7fa;
 }
 
 .index__products {
-	margin: 0 24px 24px;
+	margin: 12px 24px 24px;
 	font-size: 29.24px;
 	font-weight: normal;
-	font-family: "wf_SegoeUI","Segoe UI","Segoe WP","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUI","Segoe UI","Segoe WP", "Open Sans","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	color: #656d78;
 	letter-spacing: -1px;
+	text-align:center;
 }
 
 .index__box {
@@ -581,7 +596,7 @@ li.li-sql:before {
 	color: white;
 	color: white;
 	margin: 0;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: 100;
 	margin-bottom: 12px;
 }
@@ -590,7 +605,7 @@ li.li-sql:before {
 	color: white;
 	font-size: 49px;
 	line-height: 1.1;
-	font-family: "wf_SegoeUI", "Segoe WP", "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUI", "Segoe WP", "Open Sans", "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
 	letter-spacing: -2px;
@@ -600,7 +615,7 @@ li.li-sql:before {
 	color: #5d9cec;
 	font-size: 49px;
 	font-weight: 100;	
-	font-family: "wf_SegoeUI", "Segoe WP", "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUI", "Segoe WP", "Open Sans", "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	text-rendering: optimizeLegibility;
 	letter-spacing: -2px;
 	margin: 12px 24px -12px
@@ -627,7 +642,7 @@ li.li-sql:before {
 	letter-spacing: -2px;
 	font-size: 49px;
 	line-height: 1.1;
-	font-family: "wf_SegoeUI", "Segoe WP", "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUI", "Segoe WP", "Open Sans", "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
 	letter-spacing: -2px;
@@ -682,7 +697,7 @@ li.li-sql:before {
 	font-size: 18px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI Bold","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
     -webkit-appearance: none;
     margin-bottom: 48px;
     border: none;
@@ -741,7 +756,7 @@ h1.product {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom:14.833px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	text-transform: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 12px;
@@ -761,7 +776,7 @@ ul.product {
 	line-height: 1.1;
 	font-size: 49px;
 	letter-spacing: -2px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI ","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI ","Segoe WP Light","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 18px;
@@ -773,7 +788,7 @@ ul.product {
 	font-size: 49px;
 	line-height: 110%;
 	letter-spacing: -2px;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom: 18px;
 }
 
@@ -783,7 +798,7 @@ h3.description-etm {
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 
 
@@ -794,7 +809,7 @@ h3.description-cee {
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 }
 
@@ -803,7 +818,7 @@ h3.description-lfwp{
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 }
 
@@ -812,7 +827,7 @@ h3.description-evm{
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 }
 
@@ -821,7 +836,7 @@ h3.description-ett{
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 }
 
@@ -830,7 +845,7 @@ h3.description-lp{
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 }
 
@@ -839,7 +854,7 @@ h3.description-bdc{
 	font-size: 29.124px;
 	font-weight: 500;
 	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom:18px;
 }
 
@@ -847,7 +862,7 @@ h3.description-bdc{
 
 p.description {
 	color: #656d78;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 
@@ -953,7 +968,7 @@ p.description {
 	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI Bold","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 
 	//font-weight: 700;
 	//border-bottom: 2px solid #B96F13;
@@ -1642,7 +1657,7 @@ p.description {
 .blog-header-container h2 {
 	color: white;
 	margin: 0;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: lighter;
 	margin-bottom:12px;
 }
@@ -1657,7 +1672,7 @@ p.description {
 	font-weight: 100;
 	line-height: 123%;
 	letter-spacing: -1px;
-	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom: 6px;
 }
 
@@ -1672,7 +1687,7 @@ p.description {
 	line-height: 120%;
 	letter-spacing: -1px;
 	transition: .2s linear;
-	font-family: /*"wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light",*/"Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: /*"wf_SegoeUILight","wf_SegoeUI","Segoe UI Light","Segoe WP Light",*/"Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: bold;
 }
 
@@ -1740,7 +1755,7 @@ p.description {
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
-	vertical-align: 10%;
+	vertical-align: 22.2%;
 
 }
 
@@ -1751,7 +1766,7 @@ p.description {
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
-	vertical-align: 10%;
+	vertical-align: 22.2%;
 }
 
 .categories-links a[href$='/category/employee-training-management/']:before {
@@ -1761,7 +1776,7 @@ p.description {
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
-	vertical-align: 10%;
+	vertical-align: 22.2%;
 }
 
 .categories-links a[href$='/category/project-management-and-time-tracking/']:before {
@@ -1771,7 +1786,7 @@ p.description {
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
-	vertical-align: 10%;
+	vertical-align: 22.2%;
 }
 
 .categories-links .post-categories li {
@@ -1785,7 +1800,7 @@ p.description {
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
-	vertical-align: 10%;
+	vertical-align: 22.2%;
 }
 
 
@@ -1801,7 +1816,7 @@ p.description {
 	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: "Segoe UI Bold","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI Bold","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	padding: 12px 24px;
 }
 
@@ -1945,7 +1960,7 @@ p.description {
 	font-size: 49px;
 	line-height: 110%;
 	letter-spacing: -2px;
-	font-family: "Segoe UI","Segoe","Segoe WP","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	margin-bottom: 18px;
 }
 
@@ -2257,7 +2272,7 @@ p.description {
 
 
 .icon-etm_main_2{
-	font-size: 12.5em;;
+	font-size: 10.5em;;
 	color: rgba(255,255,255,0.5);
 }
 
@@ -2292,7 +2307,7 @@ p.description {
 //Changes for Index-Site
 .icon_index {
 	font-size: 5em;
-	color:white;
+	color: rgba(255,255,255,0.6);
 	padding-top: 48px;
 }
 
