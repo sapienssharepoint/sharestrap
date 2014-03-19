@@ -912,6 +912,16 @@ p.description {
 .btn--product-etm {
 	background-color: darken(saturate($color-etm,20%),20%);
 	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+	padding: 24px 24px;
+	/* letter-spacing: -1px; */
+	font-size: 20px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+}
+
+.btn--product-ld {
+	background: #5d9cec !important;
+	color: white;
 }
 
 .btn--product-cee {
@@ -934,6 +944,11 @@ p.description {
 .btn--product-ett {
 	background-color: darken(saturate($color-ett,20%),20%);
 	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
+	padding: 24px 24px;
+	/* letter-spacing: -1px; */
+	font-size: 20px;
+	margin-right: 15px;
+	margin-bottom: 12px;
 }
 
 .btn--product-lp {
@@ -1039,7 +1054,7 @@ p.description {
 }
 .btn--ld-etm{
 	background-color: darken(saturate($color-etm,20%),20%);
-	border: rgba(128,128,128,0.2);
+	border: rgba(128,128,128,0.2) !important;
 	color: #FFF;
 	padding: 12px 24px;
 	-webkit-border-radius: 10px;
