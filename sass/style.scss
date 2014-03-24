@@ -1049,11 +1049,15 @@ p.description {
 	background-color: $color-etm;
 	text-align:center;
 }
-.sect-ld-etm H3{
+.sect-ld-ett{
+	background-color: $color-ett;
+	text-align:center;
+}
+
+.sect-ld-etm H3, .sect-ld-ett H3{
 	color:#fff;
 }
-.btn--ld-etm{
-	background-color: darken(saturate($color-etm,20%),20%);
+.btn--ld-etm, .btn--ld-ett{
 	border: rgba(128,128,128,0.2) !important;
 	color: #FFF;
 	padding: 12px 24px;
@@ -1074,11 +1078,18 @@ p.description {
 	text-transform: uppercase;
 	//box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.3);
 }
+.btn--ld-etm{
+	background-color: darken(saturate($color-etm,20%),20%);
+}
+.btn--ld-ett{
+	background-color: darken(saturate($color-ett,20%),20%);	
+}
 
 
 
 //* LIVE DEMO FORM *//
-.form--ld-etm .fscf-input-text, .form--ld-etm .fscf-input-textarea {
+.form--ld-etm .fscf-input-text, .form--ld-etm .fscf-input-textarea,
+.form--ld-ett .fscf-input-text, .form--ld-ett .fscf-input-textarea {
 	border: 1px solid #aaa;
 	color: #34495e;
 	font-size: 12px;
@@ -1105,23 +1116,10 @@ p.description {
 }
 
 .form--ld-etm .fscf-button-submit {
-	background-color: #688914;
-	border: rgba(128,128,128,0.2);
-	color: #FFF !important;
-	padding: 12px 18px;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	line-height: 1;
-	text-align: center;
-	font-size: 14px;
-	letter-spacing: 1px;
-	font-weight: 700;
-	border-radius:5px	!important;
-	margin:15px 0px ;
-	text-decoration: none !important;
 	background-color: darken(saturate($color-etm,20%),20%);
+}
+.form--ld-ett .fscf-button-submit {
+	background-color: darken(saturate($color-ett,20%),20%);
 }
 
 
