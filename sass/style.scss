@@ -217,6 +217,10 @@ html{
 	background-color: desaturate(darken($color-bdc,5%),10%);
 }
 
+.sect-second-wwa{
+	background-color:desaturate(darken($color-neutral,5%),10%);
+}
+
 .sect_island {
 	padding:12px 0;
 }
@@ -1773,7 +1777,8 @@ p.description {
 .categories-links a[href$='/category/employee-training-management/'], 
 .categories-links a[href$='/category/project-management-and-time-tracking/'], 
 .categories-links a[href$='/category/enhanced-lookup/'], 
-.categories-links a[href$='/category/sql-business-data-connector/']{
+.categories-links a[href$='/category/sql-business-data-connector/'],
+.categories-links a[href$='/category/event-management/']{
 	color: #656d78;
 	padding: 5px 12px 6px;
 	font-size: 11px;
@@ -1840,6 +1845,15 @@ p.description {
 	@include border-radius(2px);
 	content: "";
 	background: $color-bdc;
+	padding: 0 5px;
+	margin-right: 4px;
+	font-size: 7px;
+	vertical-align: 22.2%;
+}
+.categories-links a[href$='/category/event-management/']:before {
+	@include border-radius(2px);
+	content: "";
+	background: $color-evm;
 	padding: 0 5px;
 	margin-right: 4px;
 	font-size: 7px;
