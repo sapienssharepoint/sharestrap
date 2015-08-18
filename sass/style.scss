@@ -111,7 +111,6 @@
   background: url('../img/customers-s0f014b051e.png') no-repeat !important;
 }
 
-
 html{
     background-color: #FFF;
     color: #333;
@@ -2390,13 +2389,19 @@ p.description {
 .icon-etm_main_2{
 	font-size: 5em;;
 	color: #689339;
-	margin-bottom: -18px;
+	margin-bottom: -35px;
 }
 
 .icon-cee_icon {
 	font-size: 5em;
 	color: #91763B;
-	margin-bottom: -18px;
+	margin-bottom: -35px;
+}
+
+@media screen and (max-width: 800px){
+	.icon-cee_icon {
+		font-size: 5em;
+	}
 }
 
 

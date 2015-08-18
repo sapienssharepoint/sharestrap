@@ -379,3 +379,30 @@ height: 150px;
 .sb-left .sb-menu li a.mm-evm {
 border-left: 3px solid #ED5565;
 }
+
+// Responsive Background Box for video
+.evm_video_block {
+	background-color: #ED5565;
+	border-radius: 16px;
+	text-align:center;
+	margin: 0px 18px 24px;
+	padding: 12px;
+}
+
+// one-whole for video block
+.one-whole_video_EVM{
+	text-align:center;
+	background-color: #ED5565;
+	border-radius: 16px;
+	text-align:center;
+	margin: 0px 1px 8px 10px;
+	padding: 9px;
+	width: auto;
+}
+
+// one -whole for video block responsive
+@media screen and (max-width: 655px){
+	.one-whole_video_EVM{
+	width: 100%;
+	}
+}
