@@ -1777,7 +1777,9 @@ p.description {
 .categories-links a[href$='/category/project-management-and-time-tracking/'], 
 .categories-links a[href$='/category/enhanced-lookup/'], 
 .categories-links a[href$='/category/sql-business-data-connector/'],
-.categories-links a[href$='/category/event-management/']{
+.categories-links a[href$='/category/event-management/'],
+.categories-links a[href$='/category/calendar-events-invites/'],
+.categories-links a[href$='/category/sharepoint-online-office365/']{
 	color: #656d78;
 	padding: 5px 12px 6px;
 	font-size: 11px;
@@ -1801,7 +1803,8 @@ p.description {
 
 }
 
-.categories-links a[href$='/category/calendar-email-extension/']:before {
+.categories-links a[href$='/category/calendar-email-extension/']:before,
+.categories-links a[href$='/category/calendar-events-invites/']:before {
 	@include border-radius(2px);
 	content: "";
 	background: $color-cee;
@@ -1864,7 +1867,8 @@ p.description {
 	display: inline;
 }
 
-.categories-links a[href$='/category/sharepoint/']:before {
+.categories-links a[href$='/category/sharepoint/']:before,
+.categories-links a[href$='/category/sharepoint-online-office365/']:before {
 	@include border-radius(2px);
 	content: "";
 	background: $color-neutral;
