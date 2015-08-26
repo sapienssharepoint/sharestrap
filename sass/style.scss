@@ -195,6 +195,9 @@ html{
 	background-color: desaturate(darken($color-cee,5%),10%);
 }
 
+.sect-second-cei {
+	background-color: desaturate(darken($color-cee,5%),10%);
+}
 
 .sect-second-lfwp {
 	background-color: desaturate(darken($color-lfwp,5%),10%);
@@ -421,6 +424,17 @@ li.li-sql:before {
 	float:left;
 }
 
+.a-cei:before {
+	@include border-radius(5px);
+	content: "";
+	background: $color-cee;
+	padding: 10px 10px;
+	margin-right: 9px;
+	display:block;
+	float:left;
+}
+
+
 .a-lfwp:before {
 	@include border-radius(5px);
 	content: "";
@@ -563,6 +577,11 @@ li.li-sql:before {
 }
 
 .index__box__cee {
+	background-color: $color-cee;
+	text-align: center;
+}
+
+.index__box__cei {
 	background-color: $color-cee;
 	text-align: center;
 }
@@ -745,6 +764,11 @@ li.li-sql:before {
 	//text-shadow: 0 0px 20px rgba(0, 0, 0, 0.15);
 }
 
+.sect-product-cei {
+	background-color: $color-cee;
+	//text-shadow: 0 0px 20px rgba(0, 0, 0, 0.15);
+}
+
 .sect-product-lfwp {
 		background-color: $color-lfwp;
 }
@@ -821,6 +845,15 @@ h3.description-etm {
 }
 
 h3.description-cee {
+	color: darken($color-cee,5%);
+	font-size: 29.124px;
+	font-weight: 500;
+	line-height: 1.2;
+	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	margin-bottom:18px;
+}
+
+h3.description-cei {
 	color: darken($color-cee,5%);
 	font-size: 29.124px;
 	font-weight: 500;
@@ -1493,6 +1526,9 @@ p.description {
 .page-index h3.description-cee a {
 	color: darken($color-cee,5%);
 }
+.page-index h3.description-cei a {
+	color: darken($color-cee,5%);
+}
 .page-index h3.description-etm a {
 	color: darken($color-etm,5%);
 }
@@ -1552,6 +1588,9 @@ p.description {
 
 }
 .single-page-cee h1 {
+	color: darken($color-cee,5%);
+}
+.single-page-cei h1 {
 	color: darken($color-cee,5%);
 }
 .single-page-evm h1 {
@@ -1632,6 +1671,10 @@ p.description {
 	color: darken($color-lfwp,10%);
 }
 .single-page-cee #toc li>a
+{ 
+	color: darken($color-cee,10%);
+}
+.single-page-cei #toc li>a
 { 
 	color: darken($color-cee,10%);
 }
@@ -1916,6 +1959,10 @@ p.description {
 	background: darken(saturate($color-cee,20%),20%);
 	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
 }
+.continue-reading-cei{
+	background: darken(saturate($color-cee,20%),20%);
+	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
+}
 .continue-reading-etm{
 	background: darken(saturate($color-etm,20%),20%);
 	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
@@ -1943,6 +1990,9 @@ p.description {
 
 
 .continue-reading-cee:hover{
+	background: darken(saturate($color-cee,100%),25%);
+}
+.continue-reading-cei:hover{
 	background: darken(saturate($color-cee,100%),25%);
 }
 .continue-reading-etm:hover{
