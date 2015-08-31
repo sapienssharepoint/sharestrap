@@ -2458,6 +2458,13 @@ p.description {
 	}
 }
 
+.icon-cei_icon {
+	font-size: 7em;
+	margin-bottom: -35px;
+	color: #91763B;
+}
+
+
 
 .icon-lfwp_main {
 	font-size: 14.5em;
@@ -2488,7 +2495,11 @@ p.description {
 	padding-top: 48px;
 	margin-bottom: 24px;
 }
-
+.icon_index.icon-cei_icon {
+	font-size: 7em;
+	margin-bottom: 0px;
+	padding-top:35px;
+}
 
 
 
@@ -2597,7 +2608,9 @@ p.description {
 .icon-cee_private:before {
 	content: "\e61f";
 }
-
+.icon-cei_icon:before {
+	content: "\e620";
+}
 
 
 //mobile navigation
@@ -2765,4 +2778,14 @@ p.description {
 
 .fscf-label{
 	display:none;
+}
+
+.new-icon-container{
+	position:relative;
+}
+.new-icon
+{
+	position:absolute;
+	top:-25px;
+	left:-25px;
 }
