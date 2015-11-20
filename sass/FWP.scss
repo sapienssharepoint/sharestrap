@@ -12,6 +12,7 @@
 		color: #feb6a8;
 }
 
+/*
 .claim {
 	font-size: 49px;
 	font-weight: normal;
@@ -61,9 +62,12 @@
 	vertical-align: -10%;
 }
 
+
+*/
 .fwp_c2a_banner{
 	background-color:#f16042;
 }
+/*
 
 .btn--c2a_trial {
 	margin-top: 12px;
@@ -108,7 +112,7 @@
 	transition: all 0s ease-in-out;
 }
 
-
+*/
 
 .fwp_main_feat_banner {
 	background-color: #F5F7FA;
@@ -179,6 +183,7 @@ div.demo_text > ol > li {
 	color: white;
 }
 
+
 section.demo_header_fwp {
 	background-color: #f16042
 }
@@ -192,6 +197,7 @@ section.demo_header_fwp > h2 {
 	padding: 3px 0 8px 0;
 	font-weight: 100;
 }
+
 
 section.customer_background {
 	color: #f5f7fa
@@ -266,6 +272,21 @@ table.FWP_Features th {
 	border: 1px solid #fc6e51;
 }
 
+@media screen and (max-width: 600px) {
+	table.FWP_Features th {
+		padding:1px;
+	}
+
+	table.FWP_Features>tbody>tr>td:first-child {
+	background-color: #E6E9ED;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	text-align: left;
+	color: #656D78;
+	font-size: 18px;
+	border-bottom: 1px solid #ccd1d9;
+	}
+}
 
 
 // ICONS FOR FWP

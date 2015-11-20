@@ -1174,7 +1174,7 @@ p.description {
 	background-color: darken(saturate($color-ett,20%),20%);
 }
 
-.form--ld-etm .fscf-button-submit {
+.form--ld-evm .fscf-button-submit {
 	background-color: #DA4453;
 }
 
@@ -2427,6 +2427,17 @@ $ICOMOON-VERSION: 1;
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'ETM_EVM_Online';
+	src:url('../fonts/EVMO/EVMO_Icons.eot?#{$ICOMOON-VERSION}');
+	src:url('../fonts/EVMO/EVMO_Icons.eot?#{$ICOMOON-VERSION}#iefix') format('embedded-opentype'),
+		url('../fonts/EVMO/EVMO_Icons.woff?#{$ICOMOON-VERSION}') format('woff'),
+		url('../fonts/EVMO/EVMO_Icons.ttf?#{$ICOMOON-VERSION}') format('truetype'),
+		url('../fonts/EVMO/EVMO_Icons.svg?#{$ICOMOON-VERSION}#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
@@ -2441,7 +2452,6 @@ $ICOMOON-VERSION: 1;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-
 .icon-etm_main_2{
 	font-size: 5em;;
 	color: #689339;
@@ -2452,6 +2462,23 @@ $ICOMOON-VERSION: 1;
 	font-size: 5em;
 	color: #91763B;
 	margin-bottom: -35px;
+}
+
+.icon-etm_online, .icon-evm_online {
+	font-family: 'ETM_EVM_Online';
+	font-size: 7em;
+	margin-bottom: -35px;
+}
+
+.icon-etm_online {
+	
+	color: #689339;
+}
+
+.icon-evm_online {
+	
+	color: #752930;
+	
 }
 
 @media screen and (max-width: 800px){
@@ -2501,8 +2528,22 @@ $ICOMOON-VERSION: 1;
 .icon_index.icon-cei_icon {
 	font-size: 7em;
 	margin-bottom: 0px;
-	padding-top:35px;
+	padding-top: 35px;
 }
+
+.icon_index.icon-EVM_Online {
+	font-size: 6.5em;
+	margin-bottom: 0px;
+	padding-top: 45px;
+}
+
+.icon_index.icon-ETM_Online {
+	font-size: 6.5em;
+	margin-bottom: 0px;
+	padding-top: 45px;
+}
+
+
 A.download-link-no-decoration {
 	text-decoration:none !important;
 }
@@ -2623,7 +2664,12 @@ A.download-link-no-decoration {
 .icon-download:before {
 	content: "\e621";
 }
-
+.icon-etm_online:before {
+    content: "\e900";
+}
+.icon-evm_online:before {
+    content: "\e901";
+}
 
 //mobile navigation
 @media only screen and (max-width: 768px) {
