@@ -355,6 +355,9 @@ table.etm_Features th {
 .ETM-feedback:before {
 	content: "\e106";
 }
+.ETM-feedback2:before {
+	content: "\e106";
+}
 .ETM-event:before {
 	content: "\e107";
 }
@@ -380,7 +383,7 @@ table.etm_Features th {
 	content: "\e10e";
 }
 
-.ETM-setup_training, .ETM-enroll, .ETM-Material {
+.ETM-setup_training, .ETM-enroll, .ETM-Material, .ETM-feedback2 {
 font-size: 5em;
 line-height: 150%;
 color: #aab2bd;
