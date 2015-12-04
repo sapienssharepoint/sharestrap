@@ -119,8 +119,29 @@ html{
 
 .header {
 	//box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);	z-index: 9;
-	position: relative;
+	position: fixed;
+	background-color:#fff;
+	top:0px;
+	z-index:9999;
+	width:100%;
+	height:54px;
 }
+
+.scrolling .header{
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+	webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+}
+.scrolling .header.has-second-menu,
+.scrolling .header.header-basic
+ {
+	box-shadow:none;
+	webkit-box-shadow:none;
+}
+.sb-navbar
+{
+	position:fixed !important;
+}
+
 .wrapper{
     max-width: 1200px;
     padding: 0 24px;
@@ -188,6 +209,42 @@ html{
 	border: 1px solid #e6e9ed;
 }
 
+#nav_sub{
+	position: fixed;
+    /* padding-top: 54px; */
+    width: 100%;
+    z-index: 9998;
+    top: 54px;
+    height: 36px;
+}
+.scrolling #nav_sub{
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+    webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+}
+@media screen and (min-width: 800px){
+	.nav-end{
+		padding-top:54px;
+	}
+	.nav-end.sect-second-end{
+		padding-top:90px;
+	}
+	.customize-support .nav-end{
+		padding-top:22px;
+	}
+	.customize-support .nav-end.sect-second-end{
+		padding-top:58px;
+	}
+}
+.sect-second-end-etm{
+	background-color: #8cc152;
+}
+.sect-second-end-cee{
+	background-color: #f3bc42;
+}
+.sect-second-end-evm{
+	background-color: #DA4453;
+}
+
 .sect-second-etm {
 	background-color: #A0D468;
 }
@@ -236,6 +293,16 @@ html{
 	font-weight: 400;
 	margin-top: 1em;
 	float:right;
+	margin:0;
+	padding-bottom: 0px;
+}
+.nav--version {
+	color: #f00;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 1em;
+	float:left;
 	margin:0;
 	padding-bottom: 0px;
 }
@@ -288,6 +355,41 @@ html{
 	background: rgba(0,0,0,0.2);
 }
 
+.nav--version > li > a {
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding:11px 12px 10px 0px;
+}
+.nav--version > li > a > span {
+	vertical-align:middle;
+}
+
+.nav--version > li.current_page_item > a{
+	background-color: rgba(0,0,0,0.2);
+}
+.sect-second-etm .nav--version > li.current_page_item > a{
+	background-color: #8cc152;
+}
+
+.sect-second-cee .nav--version > li.current_page_item > a{
+	background-color: #f3bc42;
+}
+
+.sect-second-evm .nav--version > li.current_page_item > a{
+	background-color: #DA4453;
+}
+@media screen and (max-width: 1024px){
+	.nav--version > li > a > span{ display: none; }
+	.nav--version > li > a > span.icon_o365_small { display: inline-block; }
+	.nav--version > li > a { padding:11px 6px 10px 0px; }
+}
+
+
+
 .nav--fit > li > a {
 	display: block;
 }
@@ -298,49 +400,66 @@ html{
 	background: #fff;
 	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	border-radius: 5px;
+	width:680px;
+	padding:24px 0px;
 }
+.flyout__content > div{
+	display:inline-block;
+	padding: 0px 0px 0px 12px;
+	vertical-align:top;
+}
+.flyout__content > div:first-child{
+	border-right:solid 1px #656d78;
+}
+.flyout__content > div > div{
+	color: #656d78;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-left:12px;
+}
+.flyout__content > div > div > span { vertical-align:middle;}
 
-.flyout__content > ul {
+
+.flyout__content > div > ul {
 	margin: 0;
 	list-style-type: none;
 	text-transform: none;
 	font-size: 14.833px;
-	padding: 6px 12px;
 }
 
-.flyout__content > ul > li {
-	padding: 12px;
+.flyout__content > div > ul > li {
+	padding: 12px 0px 12px 12px;
 	@include transition(background .3s ease-out); 
 	//margin: 12px;
 }
 
-.flyout__content > ul > li > a {
+.flyout__content > div > ul > li > a {
 	text-decoration: none;
 	color: #656d78;
 	display:block;
 	padding-right:29px;
 }
 
-.flyout__content > ul > li > a:active {
+.flyout__content > div > ul > li > a:active {
 	color: black;
 }
 
 
-.flyout__content > ul > li:last-child {
+.flyout__content > div > ul > li:last-child {
 	margin-bottom:6px;
 }
 
-.flyout__content > ul > li:first-child {
+.flyout__content > div > ul > li:first-child {
 	margin-top:6px;
 }
 
-.flyout__content > ul > li:hover {
+.flyout__content > div > ul > li:hover {
 	//padding: 9px 18px;
 	background: #f5f7fa;
 	@include border-radius(5px);
 }
 
-.flyout__content > ul > li:active {
+.flyout__content > div > ul > li:active {
 	background: #EEEEEE;
 }
 /*FIX flyout for IE*/
@@ -348,8 +467,9 @@ html{
 .flyout--alt.hover {
   overflow: visible;
 }
-.flyout.hover > .flyout__content {
-  left: 0;
+.flyout.hover > .flyout__content,
+.flyout:hover > .flyout__content {
+  left: -285px;
 }
 .flyout--alt.hover > .flyout__content {
   top: 0;
@@ -1708,7 +1828,19 @@ p.description {
 	background: #4a89dc;
 	padding: 0;
 }
-
+@media screen and (min-width: 800px){
+	.blog-bar {
+		height:65px;
+		position:fixed;
+		width:100%;
+		z-index: 9998;
+	    top: 54px;
+	}
+	.scrolling .blog-bar{
+		box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+	    webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+	}
+}
 .blog-search-bar {
 	text-align: right;
 	margin-bottom: 12px;
@@ -1723,6 +1855,16 @@ p.description {
 
 .blog-header {
 	background: #5d9cec;
+	padding-top:119px;
+}
+
+.blog-header {
+	background: #5d9cec;
+}
+@media screen and (min-width: 800px){
+	.blog-header {
+		padding-top:119px;
+	}	
 }
 
 .blog-header-container{
@@ -2183,6 +2325,7 @@ p.description {
 /** TRIAL FORM **/
 .header-basic{
 	margin:50px 0 0 0;
+	position:relative;
 }
 
 .wrapper.trial-form{
@@ -2438,6 +2581,17 @@ $ICOMOON-VERSION: 1;
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'O365_Icons';
+	src:url('../fonts/O365/O365_Icons.eot?#{$ICOMOON-VERSION}');
+	src:url('../fonts/O365/O365_Icons.eot?#{$ICOMOON-VERSION}#iefix') format('embedded-opentype'),
+		url('../fonts/O365/O365_Icons.woff?#{$ICOMOON-VERSION}') format('woff'),
+		url('../fonts/O365/O365_Icons.ttf?#{$ICOMOON-VERSION}') format('truetype'),
+		url('../fonts/O365/O365_Icons.svg?#{$ICOMOON-VERSION}#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
@@ -2468,6 +2622,29 @@ $ICOMOON-VERSION: 1;
 	font-family: 'ETM_EVM_Online';
 	font-size: 7em;
 	margin-bottom: -35px;
+}
+.icon_o365_sp,
+.icon_o365_cloud
+{
+	font-family: 'O365_Icons';
+}
+.icon_o365_small
+{
+	font-size:14px;
+	padding:0px 6px 0px 12px;
+}
+.icon_o365_medium
+{
+	font-size:24px;
+	padding:0px 12px 0px 0px;
+}
+.icon_o365_large
+{
+	font-size:36px;
+}
+.icon_o365_white
+{
+	color:#fff;
 }
 
 .icon-etm_online {
@@ -2669,6 +2846,12 @@ A.download-link-no-decoration {
 }
 .icon-evm_online:before {
     content: "\e901";
+}
+.icon_o365_sp:before{
+	content: "\e900";	
+}
+.icon_o365_cloud:before{
+	content: "\e901";	
 }
 
 //mobile navigation
