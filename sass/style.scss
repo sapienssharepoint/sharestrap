@@ -122,6 +122,7 @@ html{
 	position: fixed;
 	background-color:#fff;
 	top:0px;
+	left:0px;
 	z-index:9999;
 	width:100%;
 	height:54px;
@@ -140,6 +141,8 @@ html{
 .sb-navbar
 {
 	position:fixed !important;
+	top:0px;
+	left:0px;
 }
 
 .wrapper{
@@ -215,6 +218,7 @@ html{
     width: 100%;
     z-index: 9998;
     top: 54px;
+    left:0px;
     height: 36px;
 }
 .scrolling #nav_sub{
@@ -223,33 +227,26 @@ html{
 }
 @media screen and (min-width: 800px){
 	.nav-end{
-		padding-top:54px;
+		margin-top:54px;
 	}
 	.nav-end.sect-second-end{
-		padding-top:90px;
+		margin-top:90px;
 	}
 	.customize-support .nav-end{
-		padding-top:22px;
+		margin-top:22px;
 	}
 	.customize-support .nav-end.sect-second-end{
-		padding-top:58px;
+		margin-top:58px;
 	}
 }
-.sect-second-end-etm{
-	background-color: #8cc152;
-}
-.sect-second-end-cee{
-	background-color: #f3bc42;
-}
-.sect-second-end-evm{
-	background-color: #DA4453;
-}
 
-.sect-second-etm {
+.sect-second-etm,
+.sect-second-etmo {
 	background-color: #A0D468;
 }
 
-.sect-second-cee {
+.sect-second-cee,
+.sect-second-ceeo {
 	background-color: desaturate(darken($color-cee,5%),10%);
 }
 
@@ -261,7 +258,8 @@ html{
 	background-color: desaturate(darken($color-lfwp,5%),10%);
 }
 
-.sect-second-evm {
+.sect-second-evm, 
+.sect-second-evmo {
 	background-color: desaturate(darken($color-evm,5%),10%);
 }
 
@@ -362,30 +360,37 @@ html{
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	padding:11px 12px 10px 0px;
+	padding:12px 12px 12px 32px;
 }
-.nav--version > li > a > span {
-	vertical-align:middle;
+.nav--version > li.icon_share_point > a {
+	background:url(../img/share_point_26px.png) no-repeat 11px 50%;
+	background-size: 14px 14px;
+}
+.nav--version > li.icon_cloud > a {
+	background:url(../img/cloud_26px.png) no-repeat 11px 50%;
+	background-size: 14px 14px;
 }
 
 .nav--version > li.current_page_item > a{
 	background-color: rgba(0,0,0,0.2);
 }
-.sect-second-etm .nav--version > li.current_page_item > a{
+.sect-second-etm .nav--version > li.current_page_item > a,
+.sect-second-etmo .nav--version > li.current_page_item > a{
 	background-color: #8cc152;
 }
 
-.sect-second-cee .nav--version > li.current_page_item > a{
+.sect-second-cee .nav--version > li.current_page_item > a,
+.sect-second-ceeo .nav--version > li.current_page_item > a{
 	background-color: #f3bc42;
 }
 
-.sect-second-evm .nav--version > li.current_page_item > a{
+.sect-second-evm .nav--version > li.current_page_item > a,
+.sect-second-evmo .nav--version > li.current_page_item > a{
 	background-color: #DA4453;
 }
 @media screen and (max-width: 1024px){
 	.nav--version > li > a > span{ display: none; }
-	.nav--version > li > a > span.icon_o365_small { display: inline-block; }
-	.nav--version > li > a { padding:11px 6px 10px 0px; }
+	.nav--version > li > a { padding:0px 0px; height:36px; width:36px; }
 }
 
 
@@ -416,9 +421,16 @@ html{
 	font-weight:bold;
 	text-transform:uppercase;
 	margin-left:12px;
+	padding: 12px 0px 12px 36px;
 }
-.flyout__content > div > div > span { vertical-align:middle;}
-
+.flyout__content > div > div.icon_share_point{
+	background: url(../img/share_point_32px_gray.png) no-repeat 0px 50%;
+	background-size:32px 32px;
+}
+.flyout__content > div > div.icon_cloud{
+	background: url(../img/cloud_32px_gray.png) no-repeat 0px 50%;
+	background-size:32px 32px;
+}
 
 .flyout__content > div > ul {
 	margin: 0;
@@ -900,14 +912,20 @@ li.li-sql:before {
 
 .sect-product-ett {
 		background-color: $color-ett;
+		margin-top: -150px;
+		padding-top:150px;
 }
 
 .sect-product-lp {
 		background-color: $color-lp;
+		margin-top: -150px;
+		padding-top:150px;
 }
 
 .sect-product-bdc {
 		background-color: $color-bdc;
+		margin-top: -150px;
+		padding-top:150px;
 }
 
 
@@ -1684,7 +1702,16 @@ p.description {
     max-width: 800px;
 }
 
-
+h3 .icon_share_point{
+	background: url(../img/share_point_32px_gray.png) no-repeat 0px 50%;
+	background-size:32px 32px;
+	padding-left:36px;
+}
+h3 .icon_cloud{
+	background: url(../img/cloud_32px_gray.png) no-repeat 0px 50%;
+	background-size:32px 32px;
+	padding-left:36px;
+}
 
 //** SINGLE PAGE **//
 
@@ -1835,6 +1862,7 @@ p.description {
 		width:100%;
 		z-index: 9998;
 	    top: 54px;
+	    left:0px;
 	}
 	.scrolling .blog-bar{
 		box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
