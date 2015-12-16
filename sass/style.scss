@@ -712,12 +712,9 @@ li.li-sql:before {
 	text-align: left;
 }
 
-.index__box__cee {
-	background-color: $color-cee;
-	text-align: center;
-}
-
-.index__box__cei {
+.index__box__cee,
+.index__box__cei,
+.index__box__ceeo {
 	background-color: $color-cee;
 	text-align: center;
 }
@@ -728,12 +725,14 @@ li.li-sql:before {
 
 }
 
-.index__box__etm {
+.index__box__etm,
+.index__box__etmo {
 	background-color: $color-etm;
 	text-align: center;
 }
 
-.index__box__evm {
+.index__box__evm,
+.index__box__evmo {
 	background-color: $color-evm;
 	text-align: center;
 }
@@ -969,7 +968,8 @@ ul.product {
 }
 
 
-h3.description-etm {
+h3.description-etm,
+h3.description-etmo {
 	color: darken($color-etm,5%);
 	font-size: 29.124px;
 	font-weight: 500;
@@ -980,16 +980,9 @@ h3.description-etm {
 
 }
 
-h3.description-cee {
-	color: darken($color-cee,5%);
-	font-size: 29.124px;
-	font-weight: 500;
-	line-height: 1.2;
-	font-family: "Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
-	margin-bottom:18px;
-}
-
-h3.description-cei {
+h3.description-cee,
+h3.description-cei,
+h3.description-ceeo {
 	color: darken($color-cee,5%);
 	font-size: 29.124px;
 	font-weight: 500;
@@ -1007,7 +1000,8 @@ h3.description-lfwp{
 	margin-bottom:18px;
 }
 
-h3.description-evm{
+h3.description-evm,
+h3.description-evmo{
 	color: darken($color-evm,5%);
 	font-size: 29.124px;
 	font-weight: 500;
@@ -1659,19 +1653,20 @@ p.description {
 	//font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 }
-.page-index h3.description-cee a {
+.page-index h3.description-cee a,
+.page-index h3.description-cei a,
+.page-index h3.description-ceeo a {
 	color: darken($color-cee,5%);
 }
-.page-index h3.description-cei a {
-	color: darken($color-cee,5%);
-}
-.page-index h3.description-etm a {
+.page-index h3.description-etm a,
+.page-index h3.description-etmo a {
 	color: darken($color-etm,5%);
 }
 .page-index h3.description-lfwp a {
 	color: darken($color-lfwp,5%);
 }
-.page-index h3.description-evm a {
+.page-index h3.description-evm a,
+.page-index h3.description-evmo a {
 	color: darken($color-evm,5%);
 }
 .page-index h3.description-ett a {
@@ -1724,7 +1719,8 @@ h3 .icon_cloud{
 	margin: 12px 0 24px;
 }
 
-.single-page-etm h1 {
+.single-page-etm h1,
+.single-page-etmo h1 {
 	color: darken($color-etm,5%);
 }
 
@@ -1732,13 +1728,13 @@ h3 .icon_cloud{
 	color: darken($color-lfwp,5%);
 
 }
-.single-page-cee h1 {
+.single-page-cee h1, 
+.single-page-cei h1,
+.single-page-ceeo h1 {
 	color: darken($color-cee,5%);
 }
-.single-page-cei h1 {
-	color: darken($color-cee,5%);
-}
-.single-page-evm h1 {
+.single-page-evm h1,
+.single-page-evmo h1 {
 	color: darken($color-evm,5%);
 }
 .single-page-ett h1 {
@@ -1815,15 +1811,14 @@ h3 .icon_cloud{
 { 
 	color: darken($color-lfwp,10%);
 }
-.single-page-cee #toc li>a
+.single-page-cee #toc li>a,
+.single-page-cei #toc li>a,
+.single-page-ceeo #toc li>a
 { 
 	color: darken($color-cee,10%);
 }
-.single-page-cei #toc li>a
-{ 
-	color: darken($color-cee,10%);
-}
-.single-page-etm #toc li>a
+.single-page-etm #toc li>a,
+.single-page-etmo #toc li>a
 { 
 	color: darken($color-etm,10%);
 }
@@ -1839,7 +1834,8 @@ h3 .icon_cloud{
 {
 	color: darken($color-bdc,10%);
 }
-.single-page-evm #toc li>a
+.single-page-evm #toc li>a,
+.single-page-evmo #toc li>a
 { 
 	color: darken($color-evm,10%);
 }
@@ -2099,15 +2095,14 @@ h3 .icon_cloud{
 	background: #5D9CEC;
 	text-decoration: none !important;
 }
-.continue-reading-cee{
+.continue-reading-cee,
+.continue-reading-cei,
+.continue-reading-ceeo{
 	background: darken(saturate($color-cee,20%),20%);
 	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
 }
-.continue-reading-cei{
-	background: darken(saturate($color-cee,20%),20%);
-	//border-bottom: 3px solid darken(saturate($color-cee,70%),30%);
-}
-.continue-reading-etm{
+.continue-reading-etm,
+.continue-reading-etmo{
 	background: darken(saturate($color-etm,20%),20%);
 	//border-bottom: 3px solid darken(saturate($color-etm,70%),30%);
 }
@@ -2115,7 +2110,8 @@ h3 .icon_cloud{
 	background: darken(saturate($color-lfwp,10%),20%);
 	//border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
 }
-.continue-reading-evm{
+.continue-reading-evm,
+.continue-reading-evmo{
 	background: darken(saturate($color-evm,10%),20%);
 	//border-bottom: 3px solid darken(saturate($color-lfwp,70%),30%);
 }
@@ -2133,19 +2129,20 @@ h3 .icon_cloud{
 }
 
 
-.continue-reading-cee:hover{
+.continue-reading-cee:hover,
+.continue-reading-cei:hover,
+.continue-reading-ceeo:hover{
 	background: darken(saturate($color-cee,100%),25%);
 }
-.continue-reading-cei:hover{
-	background: darken(saturate($color-cee,100%),25%);
-}
-.continue-reading-etm:hover{
+.continue-reading-etm:hover,
+.continue-reading-etmo:hover{
 	background: darken(saturate($color-etm,20%),15%);
 }
 .continue-reading-lfwp:hover{
 	background: darken(saturate($color-lfwp,5%),15%);
 }
-.continue-reading-evm:hover{
+.continue-reading-evm:hover,
+.continue-reading-evmo:hover{
 	background: darken(saturate($color-evm,5%),15%);
 }
 .continue-reading-ett:hover{
