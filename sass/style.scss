@@ -1728,7 +1728,7 @@ h3 .icon_cloud{
 	color: darken($color-lfwp,5%);
 
 }
-.single-page-cee h1, 
+.single-page-cee h1,	 
 .single-page-cei h1,
 .single-page-ceeo h1 {
 	color: darken($color-cee,5%);
@@ -2559,11 +2559,11 @@ $ICOMOON-VERSION: 1;
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon151209/icomoon.eot?#{$ICOMOON-VERSION}');
-	src:url('../fonts/icomoon151209/icomoon.eot?#{$ICOMOON-VERSION}#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon151209/icomoon.woff?#{$ICOMOON-VERSION}') format('woff'),
-		url('../fonts/icomoon151209/icomoon.ttf?#{$ICOMOON-VERSION}') format('truetype'),
-		url('../fonts/icomoon151209/icomoon.svg?#{$ICOMOON-VERSION}#icomoon') format('svg');
+	src:url('../fonts/icomoon151217/icomoon.eot?#{$ICOMOON-VERSION}');
+	src:url('../fonts/icomoon151217/icomoon.eot?#{$ICOMOON-VERSION}#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon151217/icomoon.woff?#{$ICOMOON-VERSION}') format('woff'),
+		url('../fonts/icomoon151217/icomoon.ttf?#{$ICOMOON-VERSION}') format('truetype'),
+		url('../fonts/icomoon151217/icomoon.svg?#{$ICOMOON-VERSION}#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -2585,6 +2585,12 @@ $ICOMOON-VERSION: 1;
 .icon-etm_main_2{
 	font-size: 5em;;
 	color: #689339;
+	margin-bottom: -35px;
+}
+
+.icon-evm_main_2{
+	font-size: 5em;;
+	color: #752930;
 	margin-bottom: -35px;
 }
 
@@ -2755,6 +2761,9 @@ A.download-link-no-decoration {
 }
 .icon-etm_main_2:before {
 	content: "\e60f";
+}
+.icon-evm_main_2:before {
+	content: "\e900";
 }
 .icon-lfwp_main:before {
 	content: "\e604";
