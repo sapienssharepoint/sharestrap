@@ -500,4 +500,21 @@ var Detector = function() {
 
 
 
+function changePricingPeriod(sender){
+    var jSender = jQuery(sender);
+    if(jSender.hasClass("btn_pricing_period_annual"))
+    {
+        jSender.addClass("btn-pricing_period_active")
+        jQuery(".btn_pricing_period_monthly").removeClass("btn-pricing_period_active");
+        jQuery(".pricing_annual").show();
+        jQuery(".pricing_monthly").hide();
+    }
+    if(jSender.hasClass("btn_pricing_period_monthly"))
+    {
+        jSender.addClass("btn-pricing_period_active")
+        jQuery(".btn_pricing_period_annual").removeClass("btn-pricing_period_active");
+        jQuery(".pricing_monthly").show();
+        jQuery(".pricing_annual").hide();
+    }
+}
 
