@@ -1433,6 +1433,16 @@ p.description {
 	font-family: "wf_SegoeUI","Segoe UI","Segoe WP", "Open Sans","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
 	line-height: 100%;
 }
+.pricing_h1_etm-o365 {
+	font-size: 40px;
+	margin-top:20px;
+	font-weight: normal;
+	text-align:center;
+	color: darken($color-etm,5%);
+	letter-spacing: -2px;
+	font-family: "wf_SegoeUI","Segoe UI","Segoe WP", "Open Sans","Segoe UI","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	line-height: 100%;
+}
 
 .pricing_h1-etm, .pricing_h2-etm {
 	color: darken($color-etm,5%);
@@ -1570,6 +1580,9 @@ div.pricing_cell-evm-popular h2{
 .pricing_cell-evm .pricing_period-desc {
 	    background-color: desaturate(darken($color-evm,5%),10%);
 }
+.pricing_cell-etm .pricing_period-desc {
+	    background-color: desaturate(darken($color-etm,5%),10%);
+}
 
 div.pricing_cell-cee-popular h3 {
 	    background-color: desaturate(darken($color-cee,15%),10%);
@@ -1582,6 +1595,9 @@ div.pricing_cell-evm-popular h3 {
 }
 .pricing_cell-evm-popular .pricing_period-desc {
 	    background-color: desaturate(darken($color-evm,15%),10%);
+}
+.pricing_cell-etm-popular .pricing_period-desc {
+	    background-color: desaturate(darken($color-etm,15%),10%);
 }
 
 .pricing_cell-lfwp h3 {
@@ -3192,6 +3208,11 @@ A.download-link-no-decoration {
 	background-color: darken($color-evm	,15%);
 	border:3px solid darken($color-evm	,15%);
 	color: darken($color-evm,15%);
+}
+.btn_pricing_period_etm{
+	background-color: darken($color-etm	,15%);
+	border:3px solid darken($color-etm	,15%);
+	color: darken($color-etm,15%);
 }
 .btn_pricing_period.btn-pricing_period_active{
 	color: #fff;
