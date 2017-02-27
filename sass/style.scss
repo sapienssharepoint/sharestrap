@@ -1660,7 +1660,6 @@ div.pricing_cell-evm-popular h3 {
 	background-color: desaturate(lighten($color-bdc,20%),20%);
 }
 
-
 .pricing_cell-etm li:nth-child(odd), .pricing_cell-cee li:nth-child(odd), .pricing_cell-lfwp li:nth-child(odd), 
 .pricing_cell-evm li:nth-child(odd), .pricing_cell-ett li:nth-child(odd), .pricing_cell-lp li:nth-child(odd), .pricing_cell-bdc li:nth-child(odd){
 	text-align: center;
@@ -1669,6 +1668,90 @@ div.pricing_cell-evm-popular h3 {
 	background: white;
 }
 
+
+
+
+
+.pricing_table-cee tr th{
+	background-color: desaturate(darken($color-cee,5%),10%);
+	margin-bottom:0;
+	font-weight: 600;
+	line-height: 160%;
+	color: white;
+}
+.pricing_table-cee tr td{
+	background-color: desaturate(lighten($color-cee,28%),20%);	
+	color: #656d78;
+}
+.pricing_table-cee tr:nth-child(odd) td{
+	background-color: desaturate(lighten($color-cee,28%),20%);	
+	background: white;
+}
+.pricing_table-cee tr td,.pricing_table-cee tr th{
+	text-align:center;
+}
+.pricing_table-cee tr td:nth-child(1),.pricing_table-cee tr th:nth-child(1){
+	text-align:left;
+}
+.pricing_table-cee tr td:nth-child(4),.pricing_table-cee tr th:nth-child(4){
+	text-align:right;
+	font-weight:600;
+	min-width:130px;
+}
+
+.pricing_table-evm tr th{
+	background-color: desaturate(darken($color-evm,5%),10%);
+	margin-bottom:0;
+	font-weight: 600;
+	line-height: 160%;
+	color: white;
+}
+.pricing_table-evm tr td{
+	background-color: desaturate(lighten($color-evm,28%),20%);	
+	color: #656d78;
+}
+.pricing_table-evm tr:nth-child(odd) td{
+	background-color: desaturate(lighten($color-evm,28%),20%);	
+	background: white;
+}
+.pricing_table-evm tr td,.pricing_table-evm tr th{
+	text-align:center;
+}
+.pricing_table-evm tr td:nth-child(1),.pricing_table-evm tr th:nth-child(1){
+	text-align:left;
+}
+.pricing_table-evm tr td:nth-child(4),.pricing_table-evm tr th:nth-child(4){
+	text-align:right;
+	font-weight:600;
+	min-width:130px;
+}
+
+.pricing_table-etm tr th{
+	background-color: desaturate(darken($color-etm,5%),10%);
+	margin-bottom:0;
+	font-weight: 600;
+	line-height: 160%;
+	color: white;
+}
+.pricing_table-etm tr td{
+	background-color: desaturate(lighten($color-etm,28%),20%);	
+	color: #656d78;
+}
+.pricing_table-etm tr:nth-child(odd) td{
+	background-color: desaturate(lighten($color-etm,28%),20%);	
+	background: white;
+}
+.pricing_table-etm tr td,.pricing_table-etm tr th{
+	text-align:center;
+}
+.pricing_table-etm tr td:nth-child(1),.pricing_table-etm tr th:nth-child(1){
+	text-align:left;
+}
+.pricing_table-etm tr td:nth-child(4),.pricing_table-etm tr th:nth-child(4){
+	text-align:right;
+	font-weight:600;
+	min-width:130px;
+}
 
 
 .btn_container {
@@ -2656,11 +2739,11 @@ $ICOMOON-VERSION: 1;
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon151218/icomoon.eot?#{$ICOMOON-VERSION}');
-	src:url('../fonts/icomoon151218/icomoon.eot?#{$ICOMOON-VERSION}#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon151218/icomoon.woff?#{$ICOMOON-VERSION}') format('woff'),
-		url('../fonts/icomoon151218/icomoon.ttf?#{$ICOMOON-VERSION}') format('truetype'),
-		url('../fonts/icomoon151218/icomoon.svg?#{$ICOMOON-VERSION}#icomoon') format('svg');
+	src:url('../fonts/icomoon170227/icomoon.eot?#{$ICOMOON-VERSION}');
+	src:url('../fonts/icomoon170227/icomoon.eot?#{$ICOMOON-VERSION}#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon170227/icomoon.woff?#{$ICOMOON-VERSION}') format('woff'),
+		url('../fonts/icomoon170227/icomoon.ttf?#{$ICOMOON-VERSION}') format('truetype'),
+		url('../fonts/icomoon170227/icomoon.svg?#{$ICOMOON-VERSION}#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -3195,8 +3278,8 @@ A.download-link-no-decoration {
 	font-weight: 600;
 	border-radius:5px !important;
 	text-transform: uppercase;
-	margin:0px 12px 0px -12px;
-	min-width:150px;
+	margin:5px 12px 5px -12px;
+	width:200px;
 	display:inline-block;
 }
 .btn_pricing_period_cee{
@@ -3240,4 +3323,10 @@ A.download-link-no-decoration {
     transition: .3s all ease-in-out;
     background: #E6E9ED;
     color: #656d78;
+}
+
+.etm-lp-link
+{
+	color:darken($color-etm, 15%);
+	text-decoration:none;
 }

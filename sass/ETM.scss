@@ -356,6 +356,12 @@ table.etm_Features th {
 .ETM-email:before {
 	content: "\e109";
 }
+.ETM-link:before {
+	content: "\e90c";
+}
+.ETM-student:before {
+	content: "\e90f";
+}
 .ETM-distribute:before {
 	content: "\e10a";
 }
@@ -379,3 +385,4 @@ color: #aab2bd;
 text-align: center;
 height: 150px;
 }
+
