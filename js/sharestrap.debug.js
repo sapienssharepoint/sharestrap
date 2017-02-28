@@ -517,18 +517,20 @@ var Detector = function() {
         btnLicenseTypeSite = $(".btn_pricing_licensetype_site");
         btnLicenseTypeTenant = $(".btn_pricing_licensetype_tenant");
 
-        btnPeriodYear.click(onPricingControlChange);
-        btnPeriodMonth.click(onPricingControlChange);
-        btnCurrencyUSD.click(onPricingControlChange);
-        btnCurrencyEUR.click(onPricingControlChange);
-        btnLicenseTypeSite.click(onPricingControlChange);
-        btnLicenseTypeTenant.click(onPricingControlChange);
+        if(btnPeriodYear.length > 0){
+            btnPeriodYear.click(onPricingControlChange);
+            btnPeriodMonth.click(onPricingControlChange);
+            btnCurrencyUSD.click(onPricingControlChange);
+            btnCurrencyEUR.click(onPricingControlChange);
+            btnLicenseTypeSite.click(onPricingControlChange);
+            btnLicenseTypeTenant.click(onPricingControlChange);
 
-        jQuery.getJSON('https://freegeoip.net/json/', function (location) {
-            jQuery.getJSON('https://addins.sharepointsapiens.com/licensing/CurrencyService.svc/GetCurrency/' + location.country_code, function (result) {
-                onPricingControlChange({ target: $(".btn_pricing_currency_" + result.toLowerCase()) });
+            jQuery.getJSON('https://freegeoip.net/json/', function (location) {
+                jQuery.getJSON('https://addins.sharepointsapiens.com/licensing/CurrencyService.svc/GetCurrency/' + location.country_code, function (result) {
+                    onPricingControlChange({ target: $(".btn_pricing_currency_" + result.toLowerCase()) });
+                });
             });
-        });
+        }
     });
 
     function onPricingControlChange(args) {

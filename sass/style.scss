@@ -352,7 +352,8 @@ body{
 	 @include transition(all .3s ease-out); 
 
 }
-.nav--second > li.current_page_item > a{
+.nav--second > li.current_page_item > a, 
+.nav--second > li:not(:first-child).current-page-ancestor > a{
 	background: rgba(0,0,0,0.2);
 }
 
