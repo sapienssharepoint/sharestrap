@@ -2143,6 +2143,8 @@ h3 .icon_cloud{
 .categories-links a[href$='/category/sql-business-data-connector/'],
 .categories-links a[href$='/category/event-management/'],
 .categories-links a[href$='/category/calendar-email-extension-office365/'],
+.categories-links a[href$='/category/event-management-for-office-365/'],
+.categories-links a[href$='/category/employee-training-management-for-office-365/'],
 .categories-links a[href$='/category/sharepoint-online-office365/']{
 	color: #656d78;
 	padding: 5px 12px 6px;
@@ -2178,7 +2180,8 @@ h3 .icon_cloud{
 	vertical-align: 22.2%;
 }
 
-.categories-links a[href$='/category/employee-training-management/']:before {
+.categories-links a[href$='/category/employee-training-management/']:before,
+.categories-links a[href$='/category/employee-training-management-for-office-365/']:before {
 	@include border-radius(2px);
 	content: "";
 	background: $color-etm;
@@ -2216,7 +2219,8 @@ h3 .icon_cloud{
 	font-size: 7px;
 	vertical-align: 22.2%;
 }
-.categories-links a[href$='/category/event-management/']:before {
+.categories-links a[href$='/category/event-management/']:before,
+.categories-links a[href$='/category/event-management-for-office-365/']:before {
 	@include border-radius(2px);
 	content: "";
 	background: $color-evm;
