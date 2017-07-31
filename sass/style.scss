@@ -3343,7 +3343,7 @@ A.download-link-no-decoration {
 
 .download-title {
     margin: 0;
-	padding: 5px 12px 12px;
+	padding: 12px;
     -webkit-transition: .3s all ease-in-out;
      -moz-transition: .3s all ease-in-out;
        -o-transition: .3s all ease-in-out;
@@ -3356,4 +3356,62 @@ A.download-link-no-decoration {
 {
 	color:darken($color-etm, 15%);
 	text-decoration:none;
+}
+
+
+.btn--download {
+	margin-top: 12px;
+	background-color: #4a89dc;
+	color: #FFF !important;
+	padding: 18px 36px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 5px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	line-height: 36px;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "Segoe UI Bold","Segoe","Segoe WP", "Open Sans","Calibri", "Lucida Grande", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #375C8D;
+	border-top: 1px solid #90BFFD;
+	box-shadow: 0 2px 2px rgba(1,1,1,0.4);
+	display: inline-block;
+	vertical-align:middle;
+}
+.btn--download .icon-download-local {
+	color: #FFF;
+	vertical-align:middle;
+}
+
+.btn--download:hover {
+	text-decoration:none !important;
+	margin-top: 12px;
+	background-color: #5d9cec;
+}
+
+.btn--download:active {
+	background-color: #376BAF;
+	border-bottom: none;
+	border-top: none;
+	box-shadow: none;
+	-webkit-transition: all 0s ease-in-out;
+	-moz-transition: all 0s ease-in-out;
+	-o-transition: all 0s ease-in-out;
+	transition: all 0s ease-in-out;
+}
+.btn--download.btn-small {
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height:24px;
+}
+.btn--download.btn-small .icon-download-local {
+	font-size:24px;
 }

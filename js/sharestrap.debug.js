@@ -493,6 +493,12 @@ var Detector = function() {
                     accordion('#trigger13');
                     accordion('#trigger14');
                     accordion('#trigger15');
+                    accordion('#trigger16');
+                    accordion('#trigger17');
+                    accordion('#trigger18');
+                    accordion('#trigger19');
+                    accordion('#trigger20');
+                    accordion('#trigger21');
 
 
         });
