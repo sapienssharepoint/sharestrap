@@ -3324,6 +3324,11 @@ A.download-link-no-decoration {
 	border:3px solid darken($color-etm	,15%);
 	color: darken($color-etm,15%);
 }
+.btn_pricing_period_lfwp{
+	background-color: darken($color-lfwp	,15%);
+	border:3px solid darken($color-lfwp	,15%);
+	color: darken($color-lfwp,15%);
+}
 .btn_pricing_period.btn-pricing_period_active{
 	color: #fff;
 }
@@ -3414,4 +3419,12 @@ A.download-link-no-decoration {
 }
 .btn--download.btn-small .icon-download-local {
 	font-size:24px;
+}
+
+.hide-for-anonymous-users{
+	display:none;
+}
+
+.user-is-logged-in .hide-for-anonymous-users{
+	display:initial;
 }
