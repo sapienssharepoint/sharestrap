@@ -531,7 +531,7 @@ var Detector = function() {
             btnLicenseTypeSite.click(onPricingControlChange);
             btnLicenseTypeTenant.click(onPricingControlChange);
 
-            jQuery.getJSON('https://freegeoip.net/json/', function (location) {
+            jQuery.getJSON('https://api.ipstack.com/check?access_key=0fabbfbe6ac0e18b6d1c7e112036aff1', function (location) {
                 jQuery.getJSON('https://addins.sharepointsapiens.com/licensing/CurrencyService.svc/GetCurrency/' + location.country_code, function (result) {
                     onPricingControlChange({ target: $(".btn_pricing_currency_" + result.toLowerCase()) });
                 });
