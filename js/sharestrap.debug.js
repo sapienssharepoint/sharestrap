@@ -563,7 +563,9 @@ var Detector = function() {
             var isLoaded = thisImg.complete && thisImg.naturalHeight !== 0;
             if(!isLoaded){
                 setTimeout(function(){
-                    $(thisImg).attr("src", $(thisImg).attr("src"));
+                    var src = $(thisImg).attr("src");
+                    $(thisImg).attr("src", "");
+                    $(thisImg).attr("src", src);
                 }, 200 * (i++));
             }
         });
