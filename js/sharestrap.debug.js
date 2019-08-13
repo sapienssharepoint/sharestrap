@@ -553,3 +553,19 @@ var Detector = function() {
         return false;
     }
 })();
+
+
+(function(){
+    jQuery(document).ready(function($){
+        var i = 1;
+        $("img").each(function(){
+            var thisImg = this;
+            var isLoaded = thisImg.complete && thisImg.naturalHeight !== 0;
+            if(!isLoaded){
+                setTimeout(function(){
+                    $(thisImg).attr("src", $(thisImg).attr("src"));
+                }, 200 * (i++));
+            }
+        });
+    });
+})();
