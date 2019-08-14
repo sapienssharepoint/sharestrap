@@ -560,14 +560,21 @@ var Detector = function() {
         var i = 1;
         $("img").each(function(){
             var thisImg = this;
-            var isLoaded = thisImg.complete && thisImg.naturalHeight !== 0;
-            if(!isLoaded){
-                setTimeout(function(){
-                    var src = $(thisImg).attr("src");
-                    $(thisImg).attr("src", "");
-                    $(thisImg).attr("src", src);
-                }, 200 * (i++));
-            }
+            reloadImage(thisImg,  50 * (i++), true)
         });
     });
+    function reloadImage(img, timeout, firstTry){
+        var isLoaded = img.complete && img.naturalHeight !== 0;
+        if(!isLoaded){
+            setTimeout(function(){
+                isLoaded = img.complete && img.naturalHeight !== 0;
+                if(!isLoaded){
+                    var src = jQuery(img).attr("src");
+                    jQuery(img).attr("src", "");
+                    jQuery(img).attr("src", src);
+                    if(firstTry) reloadImage(img, timeout * 2, false);
+                }
+            }, timeout);
+        }
+    }
 })();
