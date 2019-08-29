@@ -557,11 +557,13 @@ var Detector = function() {
 
 (function(){
     jQuery(document).ready(function($){
-        var i = 1;
-        $("img").each(function(){
-            var thisImg = this;
-            reloadImage(thisImg,  50 * (i++), true)
-        });
+        setTimeout(function(){
+            var i = 1;
+            $("img").each(function(){
+                var thisImg = this;
+                reloadImage(thisImg,  50 * (i++), true)
+            });
+        }, 2000);
     });
     function reloadImage(img, timeout, firstTry){
         var isLoaded = img.complete && img.naturalHeight !== 0;
@@ -570,6 +572,7 @@ var Detector = function() {
                 isLoaded = img.complete && img.naturalHeight !== 0;
                 if(!isLoaded){
                     var src = jQuery(img).attr("src");
+                    src = src.replace(/^(?:\/\/|[^\/]+)*\//, "/");
                     jQuery(img).attr("src", "");
                     jQuery(img).attr("src", src);
                     if(firstTry) reloadImage(img, timeout * 2, false);
