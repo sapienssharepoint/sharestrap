@@ -3434,3 +3434,10 @@ A.download-link-no-decoration {
 .user-is-logged-in .hide-for-anonymous-users{
 	display:inherit;
 }
+
+h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before {
+	content:"";
+	display:block;
+	height:90px; /* fixed header height*/
+	margin:-90px 0 0; /* negative fixed header height */
+}
