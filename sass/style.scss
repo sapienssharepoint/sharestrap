@@ -3441,3 +3441,14 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before {
 	height:90px; /* fixed header height*/
 	margin:-90px 0 0; /* negative fixed header height */
 }
+
+.documentation-page-container {
+	img {
+		text-align: center;
+		margin: 20px auto 40px auto;
+		display: block;
+		-moz-box-shadow: 0 0 20px #e6e9ed;
+		-webkit-box-shadow: 0 0 20px #e6e9ed;
+		box-shadow: 0 0 20px #e6e9ed;
+	}
+}
