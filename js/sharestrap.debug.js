@@ -581,3 +581,17 @@ var Detector = function() {
         }
     }
 })();
+
+(function(){
+    jQuery(document).ready(function($){
+        $("a.btn--download").each(function() {
+            var href = $(this).attr("href");
+            if (href && href.indexOf("?") === -1) {
+                href += "?t=" + new Date().getTime();
+                $(this).attr("href", href);
+            }
+        });
+    });
+})();
+
+
