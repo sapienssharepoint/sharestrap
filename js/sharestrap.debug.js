@@ -535,6 +535,8 @@ var Detector = function() {
                 jQuery.getJSON('https://addins.sharepointsapiens.com/licensing/CurrencyService.svc/GetCurrency/' + location.country_code, function (result) {
                     onPricingControlChange({ target: $(".btn_pricing_currency_" + result.toLowerCase()) });
                 });
+            }).fail(function () {
+                onPricingControlChange({ target: $(".btn_pricing_currency_usd") });
             });
         }
     });
