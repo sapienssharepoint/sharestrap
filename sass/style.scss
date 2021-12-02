@@ -3454,3 +3454,8 @@ h1[id]:before, h2[id]:before, h3[id]:before, h4[id]:before {
 		box-shadow: 0 0 20px #e6e9ed;
 	}
 }
+
+img, img[width], img[height] {
+	max-width: 100%;
+	height: auto;
+}
