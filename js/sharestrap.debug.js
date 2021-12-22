@@ -550,8 +550,11 @@ var Detector = function() {
         var period = btnPeriodMonth.hasClass("btn-pricing_period_active") ? "month" : "year";
         var currency = btnCurrencyEUR.hasClass("btn-pricing_period_active") ? "eur" : "usd";
         var licenseType = btnLicenseTypeTenant.hasClass("btn-pricing_period_active") ? "tenant" : "site";
+
         jQuery(".pricing-body").hide();
+        jQuery(".pricing-body-loading").hide();
         jQuery(".pricing-body[data-currency='" + currency + "'][data-period='" + period + "'][data-license='" + licenseType + "']").show();
+        
         return false;
     }
 })();
