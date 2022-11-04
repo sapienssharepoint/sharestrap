@@ -3488,3 +3488,16 @@ img, img[width], img[height] {
 		font-size: 14px;
 	}
 }
+
+.sapiens-embed-yt {
+	text-align: center;
+	.wp-block-embed__wrapper {
+		text-align: center;
+	}
+
+	figcaption {
+		text-align: center;
+		font-size: 12px;
+		font-style: italic;
+	}
+}
